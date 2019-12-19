@@ -6,61 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Navbar Scroll</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="lib/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+<style>
+    #owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+</style>
 
 <body>
     <div class="head">
         <div class="title">
-            <h1>LOGO</h1>
+           <!-- <h1><img src="img/logo.svg" alt=""></h1> -->
+           <img src="img/logo.svg" alt="">
+       </div>
+       <div class="nav-menu" id="nav">
+        <div class="logo-mobile"><img src="img/logo_pb_.svg"></div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Video</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
-        <div class="nav" id="nav">
-            <div class="logo">LOGO</div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Video</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
+    </div><!--nav-->
+</div>
 
-        </div>
+<!-- carousel -->
+<div id="owl-demo" class="owl-carousel owl-theme">
 
-    </div>
-    <!--head-->
-    <div class="box">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat pariatur ullam fugit consequuntur reprehenderit, laboriosam autem natus, voluptatibus dolorem quibusdam sit aut nostrum ex libero cupiditate facilis sint, veritatis exercitationem.</p>
-        <br/><br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat pariatur ullam fugit consequuntur reprehenderit, laboriosam autem natus, voluptatibus dolorem quibusdam sit aut nostrum ex libero cupiditate facilis sint, veritatis exercitationem.</p>
-        <br/><br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat pariatur ullam fugit consequuntur reprehenderit, laboriosam autem natus, voluptatibus dolorem quibusdam sit aut nostrum ex libero cupiditate facilis sint, veritatis exercitationem.</p>
-        <br/><br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat pariatur ullam fugit consequuntur reprehenderit, laboriosam autem natus, voluptatibus dolorem quibusdam sit aut nostrum ex libero cupiditate facilis sint, veritatis exercitationem.</p>
-        <br/><br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat pariatur ullam fugit consequuntur reprehenderit, laboriosam autem natus, voluptatibus dolorem quibusdam sit aut nostrum ex libero cupiditate facilis sint, veritatis exercitationem.</p>
-        <br/><br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat pariatur ullam fugit consequuntur reprehenderit, laboriosam autem natus, voluptatibus dolorem quibusdam sit aut nostrum ex libero cupiditate facilis sint, veritatis exercitationem.</p>
-        <br/><br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat pariatur ullam fugit consequuntur reprehenderit, laboriosam autem natus, voluptatibus dolorem quibusdam sit aut nostrum ex libero cupiditate facilis sint, veritatis exercitationem.</p>
-        <br/><br/>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat pariatur ullam fugit consequuntur reprehenderit, laboriosam autem natus, voluptatibus dolorem quibusdam sit aut nostrum ex libero cupiditate facilis sint, veritatis exercitationem.</p>
-        <br/><br/>
-    </div>
+    <div class="item"><img src="img/car1.jpg" alt="The Last of us"></div>
+    <div class="item"><img src="img/car2.jpg" alt="GTA V"></div>
+    <div class="item"><img src="img/car3.jpg" alt="Mirror Edge"></div>
 
-    <script src="main.js"></script>
+</div>
+<!-- End carousel -->
+
+<!--     <div class="box">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora molestias est explicabo repellat dolores, cum amet. Placeat autem reprehenderit perspiciatis ut repellat provident obcaecati, cum iusto, illum aspernatur, possimus sed.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora molestias est explicabo repellat dolores, cum amet. Placeat autem reprehenderit perspiciatis ut repellat provident obcaecati, cum iusto, illum aspernatur, possimus sed.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora molestias est explicabo repellat dolores, cum amet. Placeat autem reprehenderit perspiciatis ut repellat provident obcaecati, cum iusto, illum aspernatur, possimus sed.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora molestias est explicabo repellat dolores, cum amet. Placeat autem reprehenderit perspiciatis ut repellat provident obcaecati, cum iusto, illum aspernatur, possimus sed.</p>
+  </div>
+-->
+<section>
+    <!-- section-1 -->
+    <div id="section-1">
+        <div class="container">        
+         <div class="row">
+             <div class="col-md 4">
+                 <p>61348 <small>Stadium Capacity</small></p>
+             </div> 
+             <div class="col-md 4">
+                 <p>2010 <small>Founded</small></p>
+             </div>
+             <div class="col-md 4">
+                 <p>7th <small>Eastern Conference</small></p>
+             </div>           
+         </div>
+     </div>
+ </div>
+ <!-- section-2 -->
+ <div id="section-2">
+    <div class="container">        
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur.</p>
+ </div>
+</div>
+
+</section>
+
+<script src="lib/jquery/jquery.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="lib/owl-carousel/owl.carousel.min.js"></script>
+<script src="main.js"></script>
+<script>
+    $(document).ready(function() {
+
+      $("#owl-demo").owlCarousel({
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true,
+      navigation:false,
+      autoPlay:true
+  });
+
+  });
+</script>
 </body>
 
 </html>
