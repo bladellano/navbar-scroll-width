@@ -8,6 +8,7 @@
         if (win.pageYOffset > 100) {
             nav.style.position = 'fixed';
             nav.style.top = 0;
+            nav.style.opacity = '0.9';
         } else {
             nav.style.position = 'relative';
         }
