@@ -219,14 +219,61 @@
 </div>
 </div>
 
-<div id="about">
-  <h2>Contato</h2>
-  <hr>
-  <div class="container">        
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur.</p>
+<div id="location">
+  <div class="container">    
+    <h2>Localização</h2>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, delectus sunt architecto iusto fugit saepe! Fuga eos nesciunt cupiditate, quo architecto illum, placeat, maxime nemo voluptatibus cumque explicabo reprehenderit et. orem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, delectus sunt architecto iusto fugit saepe! Fuga eos nesciunt cupiditate, quo architecto illum, placeat, maxime nemo voluptatibus cumque explicabo reprehenderit et.
+    </p>
   </div>
 </div>
-
+<div id="footer"> 
+  <div class="container-fluid"> 
+    <div class="row">      
+     <div class="col-md-3">      <h3>Institucional</h3>
+        <ul>
+          <li><a href="#">Inicial</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Portfólio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Orçamento</a></li>
+          <li><a href="#">Fale Conosco</a></li>
+        </ul></div>
+     <div class="col-md-3">
+        <h3>Institucional</h3>
+        <ul>
+          <li><a href="#">Inicial</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Portfólio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Orçamento</a></li>
+          <li><a href="#">Fale Conosco</a></li>
+        </ul>
+     </div>
+     <div class="col-md-3">      <h3>Institucional</h3>
+        <ul>
+          <li><a href="#">Inicial</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Portfólio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Orçamento</a></li>
+          <li><a href="#">Fale Conosco</a></li>
+        </ul></div>
+     <div class="col-md-3">      <h3>Institucional</h3>
+        <ul>
+          <li><a href="#">Inicial</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Portfólio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Orçamento</a></li>
+          <li><a href="#">Fale Conosco</a></li>
+        </ul></div>
+   </div>   
+ </div>
 
 </section>
 
