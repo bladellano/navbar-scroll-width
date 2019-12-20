@@ -282,6 +282,10 @@ body {
     body {
         overflow-x: hidden;
     }
+    #links-services .container .row:only-child a{
+        width : 150px;
+        height: 150px;
+    }
     #services{
         text-align: center;  
     }
