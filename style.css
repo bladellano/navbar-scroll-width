@@ -3,8 +3,8 @@
 
 /* Definindo cores */
 :root{
-    --cor-color-principal : #4b4b4b;
-    --cor-color-secundaria: #ff3838;
+    --cor-color-principal : #7F9C97;
+    --cor-color-secundaria: #273A40;
     --cor-bg-principal    : #FFFFFF;
 }
 
@@ -18,38 +18,69 @@
 body {
     background: var(--cor-bg-principal);
 }
-
+/* Personalizando botão boostrap */
+.btn{
+    border: solid 1px var(--cor-color-principal);
+    color:  var(--cor-color-principal);
+}
+.btn:hover {
+    border: solid 1px var(--cor-color-principal);
+    background-color: var(--cor-color-principal);
+}
 /* As sessões */
-#section-1{
+#information{
   background-color: var(--cor-bg-principal);
   width: 100%;
   height: 100%;  
   text-align: center;
 }
-#section-1 p {
+#information p {
     color:#333;
     text-transform: uppercase;
     font-size: 64px;
     margin-top: 36px;
     /*font-family: 'Open Sans';*/
 }
-#section-1 p small{
+#information p small{
     color:#666;
     font-size: 24px;
     display: block;
-    /*font-family: 'Open Sans';*/
     font-weight: 300;
 }
-
-/*section-2*/
-#section-2{
+/*about*/
+#about{
   background-color: var(--cor-color-principal);
   width           : 100%;
   text-align      : center;
 }
-#section-2 p{
-    padding: 60px;
+#about p{
+    padding-top:40px;
+    padding-bottom: 40px;
     color  :#FFF;
+    text-align: justify;
+}
+#about h2{
+    color:#FFF;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+}  
+#about hr{
+    border:var(--cor-color-secundaria) solid 2px;
+    width: 200px;
+    margin:0 auto;
+
+} 
+#services{
+  background-color: var(--cor-bg-principal);
+  width         : 100%;
+  text-align    : left;
+  margin-bottom : 20px;
+}
+#services p{
+    color    : #333;
+    font-size: 1.3em;
 }
 
 .head {
@@ -163,6 +194,9 @@ body {
 @media screen and (max-width:768px) {
     body {
         overflow-x: hidden;
+    }
+    #services{
+        text-align: center;  
     }
     .nav-links li:hover .sub-menu{
 

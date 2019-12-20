@@ -31,11 +31,10 @@
    <div class="nav-menu" id="nav">
     <div class="logo-mobile"><img src="img/logo_pb_.svg"></div>
 
-
     <ul class="nav-links">
       <li class="active-menu_">
         <i class="fa fa-chevron-left" aria-hidden="true"></i>
-          <a href="#">Home</a>
+        <a href="#">Home</a>
         <i class="fa fa-chevron-down" aria-hidden="true"></i>
         
         <div class="sub-menu">
@@ -56,7 +55,7 @@
       </li>
       <li>
        <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        <a href="#">Contact</a>
+       <a href="#">Contact</a>
        <i class="fa fa-chevron-down" aria-hidden="true"></i>
 
        <div class="sub-menu">
@@ -93,16 +92,9 @@
 </div>
 <!-- End carousel -->
 
-<!--     <div class="box">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora molestias est explicabo repellat dolores, cum amet. Placeat autem reprehenderit perspiciatis ut repellat provident obcaecati, cum iusto, illum aspernatur, possimus sed.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora molestias est explicabo repellat dolores, cum amet. Placeat autem reprehenderit perspiciatis ut repellat provident obcaecati, cum iusto, illum aspernatur, possimus sed.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora molestias est explicabo repellat dolores, cum amet. Placeat autem reprehenderit perspiciatis ut repellat provident obcaecati, cum iusto, illum aspernatur, possimus sed.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora molestias est explicabo repellat dolores, cum amet. Placeat autem reprehenderit perspiciatis ut repellat provident obcaecati, cum iusto, illum aspernatur, possimus sed.</p>
-  </div>
--->
 <section>
   <!-- section-1 -->
-  <div id="section-1">
+  <div id="information">
     <div class="container">        
      <div class="row">
        <div class="col-md 4">
@@ -117,12 +109,41 @@
      </div>
    </div>
  </div>
- <!-- section-2 -->
- <div id="section-2">
+
+ <div id="about">
+  <h2>Sobre a Empresa</h2>
+  <hr>
   <div class="container">        
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur.</p>
- </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur.</p>
+  </div>
 </div>
+
+<div id="services">
+  <div class="container">        
+   <div class="row">
+     <div class="col-md-6">
+      <h2>Criação de Sites Responsivos e Mobiles</h2>
+      <p>Criação de sites mobiles e responsivos. Sites que se adaptam a qualquer resolução de tela, sem criar barra de rolagem.</p>
+      <p>Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.</p>
+      <button class="btn btn-outline-primary">SOLICITAR ORÇAMENTO</button>
+      <br/><br/>
+    </div>
+    <div class="col-md-6">
+      <img class="img-fluid" src="img/carl-heyerdahl.jpg" alt="">
+    </div>
+  </div>
+</div>
+</div>
+
+ <div id="about">
+  <h2>Contato</h2>
+  <hr>
+  <div class="container">        
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur.</p>
+  </div>
+</div>
+
+
 
 </section>
 
