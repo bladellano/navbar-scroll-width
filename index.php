@@ -8,7 +8,7 @@
   <title>Navbar Scroll</title>
 
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"> -->
+
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 
   <link href="lib/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
@@ -230,50 +230,51 @@
 <div id="footer"> 
   <div class="container-fluid"> 
     <div class="row">      
-     <div class="col-md-3">      <h3>Institucional</h3>
-        <ul>
-          <li><a href="#">Inicial</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Portfólio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Orçamento</a></li>
-          <li><a href="#">Fale Conosco</a></li>
-        </ul></div>
-     <div class="col-md-3">
-        <h3>Institucional</h3>
-        <ul>
-          <li><a href="#">Inicial</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Portfólio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Orçamento</a></li>
-          <li><a href="#">Fale Conosco</a></li>
-        </ul>
-     </div>
-     <div class="col-md-3">      <h3>Institucional</h3>
-        <ul>
-          <li><a href="#">Inicial</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Portfólio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Orçamento</a></li>
-          <li><a href="#">Fale Conosco</a></li>
-        </ul></div>
-     <div class="col-md-3">      <h3>Institucional</h3>
-        <ul>
-          <li><a href="#">Inicial</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Portfólio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Orçamento</a></li>
-          <li><a href="#">Fale Conosco</a></li>
-        </ul></div>
-   </div>   
- </div>
+     <div class="col-md-3">      
+      <h3>PAIDEIA EDUCACIONAL</h3>
+      <p>Rua Senador Xavier da Silva, 488 - Conj. 205 Centro Cívico - Curitiba - PR (41) 3015-4488</p>
+      <p>Av. Paulista, 575 Bela Vista - São Paulo - SP (11) 2626-4325</p>
+      <p>contato@325web.com.br</p>
+      <a href="" class="icon-socials">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="icon-socials">
+        <i class="fab fa-instagram"></i>
+      </a> 
+    </div>
+    <div class="col-md-3">
+      <h3>Notícias</h3>
+      <ul>
+        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
+        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
+        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
+        <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
+
+      </ul>
+    </div>
+    <div class="col-md-3">      
+      <h3>Institucional</h3>
+      <ul>
+        <li><a href="#">Inicial</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Portfólio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Orçamento</a></li>
+        <li><a href="#">Fale Conosco</a></li>
+      </ul></div>
+      <div class="col-md-3">      
+        <h3>Ligamos para você</h3>
+        <p>Deixe seu nome e número de telefone que ligamos para você.</p>
+        <form action="">           
+          <input type="text" class="form-control form-control-sm" placeholder="Nome:">
+          <input type="email" class="form-control form-control-sm" placeholder="E-mail:">
+          <input type="text" class="form-control form-control-sm" placeholder="Telefone:"> 
+          <button class="btn btn-outline-primary btn-block btn-sm">Enviar</button> 
+        </form>
+      </div>
+    </div>   
+  </div>
 
 </section>
 
