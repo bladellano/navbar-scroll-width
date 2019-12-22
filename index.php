@@ -1,3 +1,8 @@
+<!-- 
+Template desenvolvido por Caio Dellano (91) 98265-0277
+Criado em 18/12/2019
+Libs: font-aewson, boostrap, owl.
+-->
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -5,12 +10,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Navbar Scroll</title>
-
+  <title>Titulo da Página</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-
   <link href="lib/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
   <link href="lib/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
   <link href="style.css" rel="stylesheet" type="text/css">
@@ -19,59 +21,60 @@
 <style>
   #owl-demo .item img{
     display: block;
-    width: 100%;
-    height: auto;
+    width  : 100%;
+    height : auto;
   }
 </style>
-
 <body>
-  <div class="head">
-    <div class="title">
-     <!-- <h1><img src="img/logo.svg" alt=""></h1> -->
-     
-     <div class="row">
-       <div class="col-md-3 text-center">
-         <img src="img/logo_paideia.svg" alt="">
-       </div>
-       <div class="col-md-3">
-         <div class="custom">
-          <i class="fas fa-phone"></i>
-          <h3>TELEFONES DE CONTATO</h3>
-          <h4>91 98208-4651 / 91 98360-4463</h4>
-        </div>
-      </div>
-      <div class="col-md-3">
-       <div class="custom">
-         <i class="fas fa-envelope"></i>
-         <h3>E-MAIL PARA CONTATO</h3>
-         <h4>contato@paideiaeducacional.com</h4>
-       </div>
+
+  <div class="container-fluid">
+    <div class="row title">
+      <div class="col-md-3 text-center">
+       <img src="img/logo_paideia.svg" alt="">
+       <!-- <i class="fab fa-phoenix-framework" style="font-size: 70px"></i> -->
      </div>
-     <div class="col-md-2">
+     <div class="col-md-3">
        <div class="custom">
-        <i class="fas fa-map-marker-alt"></i>
-        <h3>ENDEREÇO</h3>
-        <h4>Av. Gentil Bittencourt 1144.</h4>
+        <i class="fas fa-phone"></i>
+        <h3>TELEFONES DE CONTATO</h3>
+        <h4>91 98208-9999 / 91 98360-9999</h4>
       </div>
     </div>
-    <div class="col-md-1">
-      <a href="" class="icon-socials">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="icon-socials">
-        <i class="fab fa-instagram"></i>
-      </a> 
-
+    <div class="col-md-3">
+     <div class="custom">
+       <i class="fas fa-envelope"></i>
+       <h3>E-MAIL PARA CONTATO</h3>
+       <h4>contato@site.com.br</h4>
+     </div>
+   </div>
+   <div class="col-md-2">
+     <div class="custom">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>ENDEREÇO</h3>
+      <h4>Av. Gentil Bittencourt 0000.</h4>
     </div>
   </div>
-</div>
-<div class="nav-menu" id="nav">
-  <div class="logo-mobile"><img src="img/logo_pb_.svg"></div>
+  <div class="col-md-1">
+    <a href="" class="icon-socials">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="" class="icon-socials">
+      <i class="fab fa-instagram"></i>
+    </a> 
 
-  <ul class="nav-links">
+  </div>
+</div>
+</div>
+
+
+<div class="head"> 
+  <div class="nav-menu" id="nav">
+   <i class="fab fa-phoenix-framework logo-mobile" style="font-size: 30px; color:#FFF;"></i>
+   <!-- <div class="logo-mobile"><img src="img/logo_pb_.svg"></div> -->
+   <ul class="nav-links">
     <li class="active-menu_">
       <i class="fa fa-chevron-left" aria-hidden="true"></i>
-      <a href="#">Home</a>
+      <a href="#">Educacional</a>
       <i class="fa fa-chevron-down" aria-hidden="true"></i>
 
       <div class="sub-menu">
@@ -80,33 +83,30 @@
           <li><a href="">Visão</a></li>
           <li><a href="">Equipe</a></li>
         </ul>
-      </div>       
-
+      </div>
 
     </li>
     <li>
-      <a href="#">Blog</a>
+      <a href="#links-services">Social</a>
     </li>
     <li>
-      <a href="#">Video</a>
+      <a href="#services">Proposta Pedagógica</a>
     </li>
     <li>
      <i class="fa fa-chevron-left" aria-hidden="true"></i>
-     <a href="#">Contact</a>
+     <a href="#">Unidades</a>
      <i class="fa fa-chevron-down" aria-hidden="true"></i>
-
      <div class="sub-menu">
       <ul>
-        <li><a href="">Missão</a></li>
-        <li><a href="">Visão</a></li>
-        <li><a href="">Equipe</a></li>
+        <li><a href="">Belém</a></li>
+        <li><a href="">Ananindeua</a></li>
+        <li><a href="">Castanhal</a></li>
       </ul>
     </div>   
 
   </li>
-  <li>
-    <a href="#">About</a>
-  </li>
+  <li><a href="#footer">Contato</a></li>
+  <li class="btn btn-success"><a href="#">Pré-matrícula</a></li>
 </ul>
 
 
@@ -123,8 +123,8 @@
 <div id="owl-demo" class="owl-carousel owl-theme">
 
   <div class="item"><img src="img/student1.jpg" alt=""></div>
+  <div class="item"><img src="img/paideia1.jpg" alt=""></div>
   <div class="item"><img src="img/student2.jpg" alt=""></div>
-  <div class="item"><img src="img/student3.jpg" alt=""></div>
   <div class="item"><img src="img/student4.jpg" alt=""></div>
 
 </div>
@@ -193,7 +193,6 @@
 </div>
 </div>
 
-
 <div id="about">
   <h2>Sobre a Empresa</h2>
   <hr>
@@ -213,12 +212,27 @@
       <br/><br/>
     </div>
     <div class="col-md-6">
-      <img class="img-fluid" src="img/carl-heyerdahl.jpg" alt="">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6sPzF-910zY"></iframe>
+      </div>
     </div>
   </div>
 </div>
 </div>
 
+<div id="paralax">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center">BEM-VINDO</h2>
+        <p class="lead text-center">Lorem ipsum is dolor sit nmet, consectetur adipiscing elit</p>
+        <p class="text-center">
+          <a href="#" class="btn btn-outline-success">Matricule-se</a>          
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 <div id="location">
   <div class="container">    
     <h2>Localização</h2>
@@ -227,14 +241,16 @@
     </p>
   </div>
 </div>
+
+
 <div id="footer"> 
   <div class="container-fluid"> 
     <div class="row">      
      <div class="col-md-3">      
-      <h3>PAIDEIA EDUCACIONAL</h3>
-      <p>Rua Senador Xavier da Silva, 488 - Conj. 205 Centro Cívico - Curitiba - PR (41) 3015-4488</p>
-      <p>Av. Paulista, 575 Bela Vista - São Paulo - SP (11) 2626-4325</p>
-      <p>contato@325web.com.br</p>
+      <h3>ESCOLA EDUCACIONAL</h3>
+      <p>Rua Lorem Ipsum is Simply, 488 - Conj. 205 Centro Cívico - Bacurau - MA (41) 0000-0000</p>
+      <p>Av. Lorem Ipsum is Simply - São Bento - SP (11) 9999-9999</p>
+      <p>contato@site.com.br</p>
       <a href="" class="icon-socials">
         <i class="fab fa-facebook-f"></i>
       </a>
@@ -275,8 +291,13 @@
       </div>
     </div>   
   </div>
+</div>
 
 </section>
+
+<div class="topo">    
+  <i class="fas fa-arrow-up"></i>
+</div>
 
 <script src="lib/jquery/jquery.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -296,6 +317,9 @@
 
   });
 </script>
+
+
+
 </body>
 
 </html>
