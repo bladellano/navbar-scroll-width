@@ -66,4 +66,23 @@
     });
 
 
+
+    window.sr = ScrollReveal({reset: true});
+    sr.reveal('#footer .container-fluid .row .col-md-3', {
+        delay: 400,
+        scale: 0
+    });
+    sr.reveal('#information .container .row .col-md-4', {
+        delay: 400,
+        scale: 0
+    });   
+    sr.reveal('#links-services .container .row .col-lg-2 a', {
+        delay: 400,
+        scale: 0
+    });  
+    sr.reveal('.embed-responsive', {
+        delay: 400,
+        scale: 0
+    });
+
 })(document, window);

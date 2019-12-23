@@ -79,9 +79,9 @@ Libs: font-aewson, boostrap, owl.
 
       <div class="sub-menu">
         <ul>
-          <li><a href="">Missão</a></li>
-          <li><a href="">Visão</a></li>
-          <li><a href="">Equipe</a></li>
+          <li><a href="">Missão<hr></a></li>
+          <li><a href="">Visão<hr></a></li>
+          <li><a href="">Equipe<hr></a></li>
         </ul>
       </div>
 
@@ -98,9 +98,9 @@ Libs: font-aewson, boostrap, owl.
      <i class="fa fa-chevron-down" aria-hidden="true"></i>
      <div class="sub-menu">
       <ul>
-        <li><a href="">Belém</a></li>
-        <li><a href="">Ananindeua</a></li>
-        <li><a href="">Castanhal</a></li>
+        <li><a href="">Belém<hr></a></li>
+        <li><a href="">Ananindeua<hr></a></li>
+        <li><a href="">Castanhal<hr></a></li>
       </ul>
     </div>   
 
@@ -135,13 +135,13 @@ Libs: font-aewson, boostrap, owl.
   <div id="information">
     <div class="container">        
      <div class="row">
-       <div class="col-md 4">
+       <div class="col-md-4">
          <p>61348 <small>Stadium Capacity</small></p>
        </div> 
-       <div class="col-md 4">
+       <div class="col-md-4">
          <p>2010 <small>Founded</small></p>
        </div>
-       <div class="col-md 4">
+       <div class="col-md-4">
          <p>7th <small>Eastern Conference</small></p>
        </div>           
      </div>
@@ -302,6 +302,8 @@ Libs: font-aewson, boostrap, owl.
 <script src="lib/jquery/jquery.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="lib/owl-carousel/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
 <script src="main.js"></script>
 <script>
   $(document).ready(function() {

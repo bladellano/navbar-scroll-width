@@ -41,7 +41,7 @@ body {
 }
 /* Personalizando botão bootstrap */
 .nav-links .btn.btn-success a{
-    color:#FFF;
+    color         :#FFF;
     text-transform: uppercase;
 }
 .nav-links .btn.btn-success:hover{
@@ -352,13 +352,27 @@ body {
     color: var(--cor-color-secundaria);
 }
 .active-menu, .nav-links li:hover {
-    background   : rgba(0,0,0,0.2);
+    background   : rgba(0,0,0,0.1);
     border-radius: 3px;
 }
-.sub-menu{
-    display: none;
+.sub-menu {
+    display      : none;
     border-radius: 3px;
+    box-shadow   : 2px 2px 8px rgba(0, 0, 0, .1);     
 }
+.sub-menu ul li a hr{
+    border       : 1px solid var(--cor-color-principal);
+    width        : 0;
+    transition   : ease .2s;
+    margin-bottom: -2px;
+    margin-top   : 0px;
+    opacity      : 0;
+}
+.sub-menu ul li:hover hr{
+    width : 100%;
+    opacity: 1;
+}
+
 .nav-links li:hover .sub-menu{
     display    : block;
     position   : absolute;
@@ -369,10 +383,10 @@ body {
 }
 .nav-links li:hover .sub-menu ul li{
     display      : block;
-    margin       : 10px;
+    /* margin       : 10px; */
     width        : 150px;
     padding      : 10px;
-    border-bottom: 1px dotted rgba(0,0,0,0.2);
+    /* border-bottom: 1px dotted rgba(0,0,0,0.2); */
     background   : transparent;
     border-radius: 0;
     text-align   : left;
