@@ -30,7 +30,7 @@ Libs: font-aewson, boostrap, owl.
   <div class="container-fluid">
     <div class="row title">
       <div class="col-md-3 text-center">
-       <img src="img/logo_paideia.svg" alt="">
+       <img src="assets/img/logo_2.svg" alt="">
        <!-- <i class="fab fa-phoenix-framework" style="font-size: 70px"></i> -->
      </div>
      <div class="col-md-3">
@@ -122,10 +122,10 @@ Libs: font-aewson, boostrap, owl.
 <!-- carousel -->
 <div id="owl-demo" class="owl-carousel owl-theme">
 
-  <div class="item"><img src="img/student1.jpg" alt=""></div>
-  <div class="item"><img src="img/paideia1.jpg" alt=""></div>
-  <div class="item"><img src="img/student2.jpg" alt=""></div>
-  <div class="item"><img src="img/student4.jpg" alt=""></div>
+  <div class="item"><img src="assets/img/student1.jpg" alt=""></div>
+  <div class="item"><img src="assets/img/paideia1.jpg" alt=""></div>
+  <div class="item"><img src="assets/img/student2.jpg" alt=""></div>
+  <div class="item"><img src="assets/img/student4.jpg" alt=""></div>
 
 </div>
 <!-- End carousel -->
@@ -237,8 +237,8 @@ Libs: font-aewson, boostrap, owl.
   <div class="container">    
     <h2>Localização</h2>
     <hr>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, delectus sunt architecto iusto fugit saepe! Fuga eos nesciunt cupiditate, quo architecto illum, placeat, maxime nemo voluptatibus cumque explicabo reprehenderit et. orem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, delectus sunt architecto iusto fugit saepe! Fuga eos nesciunt cupiditate, quo architecto illum, placeat, maxime nemo voluptatibus cumque explicabo reprehenderit et.
-    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, delectus sunt architecto iusto fugit saepe! Fuga eos nesciunt cupiditate, quo architecto illum, placeat, maxime nemo voluptatibus cumque explicabo reprehenderit et. orem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, delectus sunt architecto iusto fugit saepe! Fuga eos nesciunt cupiditate, quo architecto illum, placeat, maxime nemo voluptatibus cumque explicabo reprehenderit et.</p> 
+     
   </div>
 </div>
 
@@ -247,7 +247,7 @@ Libs: font-aewson, boostrap, owl.
   <div class="container-fluid"> 
     <div class="row">      
      <div class="col-md-3">      
-      <h3>ESCOLA EDUCACIONAL</h3>
+      <h3><img src="assets/img/logo_1.svg" alt=""></h3>
       <p>Rua Lorem Ipsum is Simply, 488 - Conj. 205 Centro Cívico - Bacurau - MA (41) 0000-0000</p>
       <p>Av. Lorem Ipsum is Simply - São Bento - SP (11) 9999-9999</p>
       <p>contato@site.com.br</p>
@@ -304,7 +304,7 @@ Libs: font-aewson, boostrap, owl.
 <script src="lib/owl-carousel/owl.carousel.min.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
 
-<script src="main.js"></script>
+<script src="assets/js/main.js"></script>
 <script>
   $(document).ready(function() {
 
