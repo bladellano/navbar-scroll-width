@@ -3,10 +3,17 @@
     <div class="row">      
      <div class="col-md-3">      
       <h3><img src="assets/img/logo_1.svg" alt=""></h3>
-      <p>Rua Lorem Ipsum is Simply, 488 - Conj. 205 Centro Cívico - Bacurau - MA (41) 0000-0000</p>
-      <p>Av. Lorem Ipsum is Simply - São Bento - SP (11) 9999-9999</p>
-      <p>contato@site.com.br</p>
-      <a href="" class="icon-socials">
+
+      <p>Contato:<br/>
+      <i class="fas fa-phone"></i> (91) 9 8208 4651 | Rosangela Santos<br/>
+      <i class="fas fa-phone"></i> (91) 9 8360 4463 | William Borralho<br/>
+      <i class="fas fa-phone"></i> (91) 9 8176 9979 | <i class="fab fa-whatsapp"></i><br/>
+      Horário de Funcionamento: Comercial<br/>
+      Responsável pela empresa: Rosangela Santos e William Borralho</p>
+      <p><i class="fas fa-envelope"></i> contato@paideiaeducacional.com</p>
+      <!-- <p>Rua Lorem Ipsum is Simply, 488 - Conj. 205 Centro Cívico - Bacurau - MA (41) 0000-0000</p> -->
+      <!-- <p>Av. Lorem Ipsum is Simply - São Bento - SP (11) 9999-9999</p> -->
+     <a href="" class="icon-socials">
         <i class="fab fa-facebook-f"></i>
       </a>
       <a href="" class="icon-socials">

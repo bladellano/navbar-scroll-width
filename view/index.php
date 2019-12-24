@@ -13,7 +13,7 @@
 
 <section>
   <!-- section-1 -->
-  <div id="information">
+<!--     <div id="information">
     <div class="container">        
      <div class="row">
        <div class="col-md-4">
@@ -27,9 +27,28 @@
        </div>           
      </div>
    </div>
- </div>
+ </div> -->
 
- <div id="links-services">
+ <div id="sobre-nos">
+  <div class="container">
+   <h2>Sobre nós</h2>
+   <hr><br>
+   <div class="row">
+    <div class="col-md-6">
+      <p class="small">O que fazemos?</p>
+      <h3>Acessória e Consultoria em Projetos Educacionais e Empresariais</h3>    
+      <p>A Paideia Educacional é uma empresa de assessoria e consultoria na área de educação formada por profissionais que atuam na área de ensino superior, escolas na educação básica, profissionalizantes, técnicas, promoções de eventos educacionais há mais de 1 ano, tendo exercido neste período diversas atividades e ocupando postos nas Instituições de Ensino, colhendo resultados positivos nos trabalhos realizados.
+      </p>
+    </div>  
+    <div class="col-md-6">
+      <img src="assets/img/business.jpg" alt="Imagem Business" class="img-responsive">
+    </div>  
+  </div> 
+
+</div>
+</div>
+
+<div id="links-services">
   <h2>Serviços</h2>
   <hr>
   <div class="container">        
@@ -37,40 +56,41 @@
       <div class="col-lg-2 col-md-4 col-sm-4 col-6">
         <a href="#">
           <i class="fas fa-book-open"></i>
-          <p>MATERIAL<br/>DIDÁTICO</p>
+          <!-- <p>MATERIAL<br/>DIDÁTICO</p> -->
+          <p>Acessória e Consultoria em Projetos Educacionais e Empresariais</p>
         </a>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-4 col-6">
         <a href="#">
          <i class="fas fa-tv"></i>
-         <p>LOUSA<br/>DIGITAL</p>
+         <p>Assessoramento e Acompanhamento de estudos em aulas Particulares</p>
        </a>
      </div>
      <div class="col-lg-2 col-md-4 col-sm-4 col-6">
       <a href="#">
-        <i class="fas fa-vr-cardboard"></i>
-        <p>AULAS<br/>3D</p>
+        <i class="fas fa-school"></i>
+        <p>Acessória e Consultoria de Escolas na Educação Básica</p>
       </a>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-4 col-6">
       <a href="#">
         <i class="fab fa-pagelines"></i>
-        <p>PARQUE DE<br/>ED. AMBIENTAL</p>
+        <p>Acessória e Consultoria de escolas profissionalizantes e Técnicas</p>
       </a>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-4 col-6">
       <a href="#">
         <i class="fas fa-photo-video"></i>
-        <p>BIBLIOTECA<br/>DIGITAL</p>
+        <p>Promoções de eventos para Acadêmicos e Profissionais</p>
       </a>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-4 col-6">
       <a href="#">
-        <i class="fas fa-search"></i>
-        <p>MAIS<br/>SERVIÇOS</p>
-      </a>
-    </div>
-  </div>
+       <i class="fas fa-calendar-day"></i>
+       <p>Promoções de eventos Empresariais</p>
+     </a>
+   </div>
+ </div>
 </div>
 </div>
 
