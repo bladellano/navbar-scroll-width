@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>.: Paideia Educacional :.</title>
+
+  <meta name="author" content="William Borralho">
+  <meta name="description" content="Acessória e Consultoria em Projetos Educacionais e Empresariais, Promoções de eventos educacionais e Assessoramento e Acompanhamento de estudos em aulas Particulares.">
+  <meta name="keywords" content="cursos, eventos, consultoria, assessoria, empresa, aulas particulares, negócio, escolas, educação básica, educação infantil, ensino fundamental, escolas profissionalizante, escolas técnicas, acadêmicos, mercado">
+
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
   <link href="lib/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
