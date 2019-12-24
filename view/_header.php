@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Titulo da Página</title>
+  <title>.: Paideia Educacional :.</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
   <link href="lib/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
@@ -62,9 +62,9 @@
 </div>
 
 <div class="rede">  
-  <div id="facebook"><a href="https://www.facebook.com/NorteMaquinas/" target="_blank" class="fab fa-facebook-f"></a></div>
-  <div id="youtube"><a href="https://www.youtube.com/channel/UCkgpJCOuJwAqUXQo3KJALOA" target="_blank" class="fab fa-youtube"></a></div>
-  <div id="instagram"><a href="https://www.instagram.com/p/Bu4iwFyHhm8/" target="_blank" class="fab fa-instagram"></a></div>
+  <!-- <div id="facebook"><a href="https://www.facebook.com/NorteMaquinas/" target="_blank" class="fab fa-facebook-f"></a></div> -->
+  <!-- <div id="youtube"><a href="https://www.youtube.com/channel/UCkgpJCOuJwAqUXQo3KJALOA" target="_blank" class="fab fa-youtube"></a></div> -->
+  <!-- <div id="instagram"><a href="https://www.instagram.com/p/Bu4iwFyHhm8/" target="_blank" class="fab fa-instagram"></a></div> -->
   <div id="whatsapp"><a href="https://api.whatsapp.com/send?phone=55988554723" target="_blank" class="fab fa-whatsapp"></a></div>
 </div>
 
@@ -107,7 +107,7 @@
 
   </li>
   <li><a href="#footer">Contato</a></li>
-  <li class="btn btn-success"><a href="#">Pré-matrícula</a></li>
+  <li class="btn btn-success"><a href="#">CONSULTE-NOS</a></li>
 </ul>
 
 <div class="burger">
