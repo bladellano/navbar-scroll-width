@@ -48,6 +48,14 @@
   </div>
 </div>
 
+<div id="assign">
+  <div class="container">
+    © FireFly. 2019 Paideia Educacional. Todos os direitos reservados.
+    <br/>Desenvolvimento by <a href="https://api.whatsapp.com/send?phone=5591982650277" target="_blank">
+      <img data-toggle="tooltip" data-placement="top" title="Contato: (91) 98265-0277" src="assets/img/fire-logo.png" alt="Logo FireFly">
+    </a></div>
+  </div>
+
 </section>
 
 <div class="topo">    
@@ -62,6 +70,10 @@
 <script src="assets/js/main.js"></script>
 <script>
   $(document).ready(function() {
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
 
     $("#owl-demo").owlCarousel({
       navigation : true, // Show next and prev buttons

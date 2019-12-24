@@ -1,16 +1,17 @@
-/*@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');*/
+/* 
+Folha de estilo criado  - Template para Instituições Educacionais 
+By Caio Dellano 15/12/2019
+Desenvolvimento FireFly
+*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
 /* Definindo cores */
 :root{
-    /* Rosa de Saron */
-    /* #D4511D */
-    /* #FBC531 */
-    /* Paideia Educacional */
-    /* #7F9C97 */
-    /* #273A40 */
-    --cor-color-principal : #7F9C97;
-    --cor-color-secundaria: #273A40; 
-    --cor-bg-principal    : #FFFFFF;
+  /* Paideia Educacional */
+  /* #7F9C97 */
+  /* #273A40 */
+  --cor-color-principal : #7F9C97;
+  --cor-color-secundaria: #273A40; 
+  --cor-bg-principal    : #FFFFFF;
 }
 
 * {
@@ -47,23 +48,22 @@ body {
     transition: .2s;
 }
 .nav-links .btn.btn-success:active {
-   position: relative;
-   left: 2px;
-   top: 2px;
-   box-shadow: 1px 1px;
+ position  : relative;
+ left      : 2px;
+ top       : 2px;
+ box-shadow: 1px 1px;
 }
 .nav-links .btn.btn-success a{
     color         :#FFF;
     text-transform: uppercase;
 }
 .nav-links .btn.btn-success:hover{
-    /*background-color:var(--cor-color-principal);*/
     background-color:var(--cor-color-principal);
     border          :1px solid var(--cor-color-principal);
 }
 .btn.btn-outline-success,.btn.btn-outline-primary{
-    border: solid 1px var(--cor-color-principal);
-    color:  var(--cor-color-principal);
+    border        : solid 1px var(--cor-color-principal);
+    color         :  var(--cor-color-principal);
     text-transform: uppercase;
 }
 .btn.btn-outline-success:hover,.btn.btn-outline-primary:hover  {
@@ -75,20 +75,20 @@ body {
 /*----------------------*/
 #information{
   background-color: var(--cor-bg-principal);
-  width: 100%;
-  height: 100%;  
-  text-align: center;
+  width           : 100%;
+  height          : 100%;  
+  text-align      : center;
 }
 #information p {
-    color:#333;
+    color         :#333;
     text-transform: uppercase;
-    font-size: 64px;
-    margin-top: 36px;
+    font-size     : 64px;
+    margin-top    : 36px;
 }
 #information p small{
-    color:#666;
-    font-size: 24px;
-    display: block;
+    color      :#666;
+    font-size  : 24px;
+    display    : block;
     font-weight: 300;
 }
 /*----------------------*/
@@ -96,7 +96,7 @@ body {
     background-color: var(--cor-color-principal);
     width           : 100%;
     text-align      : center;
-    padding-top   : 20px;
+    padding-top     : 20px;
 }
 #about p{
     padding-top   : 40px;
@@ -196,9 +196,9 @@ body {
     padding-top     : 40px;
 }
 #footer .container-fluid .row .col-md-3{
-   padding-left :4% ;
-   padding-right:4% ;
-   border-left  :1px dotted #666;
+ padding-left :4% ;
+ padding-right:4% ;
+ border-left  :1px dotted #666;
 }
 #footer .container-fluid .row:only-child h3{
     margin-bottom: 35px;
@@ -230,6 +230,21 @@ body {
     line-height: 26px;
 }
 
+/*----------------------*/
+#assign {
+   background: linear-gradient(45deg, #222, #333); 
+}
+#assign .container{
+   text-align    : center; 
+   color         : #FFF;
+   padding-top   : 8px;
+   padding-bottom: 8px;
+   font-size     : 12px;
+   color         : #777;
+}
+#assign .container img{
+    max-height: 33px;
+}
 /*----------------------*/
 .form-control{
     margin-bottom:24px ;
@@ -267,14 +282,14 @@ body {
 }
 /*----------------------*/
 #paralax{
-   background-image     : url(../../assets/img/bg-paralax2.jpg);
-   background-position  : center top;
-   background-repeat    : no-repeat;
-   background-size      : cover;
-   background-attachment: fixed;
-   color                : #FFF;
-   padding-top          : 100px;
-   padding-bottom       : 100px;
+ background-image     : url(../../assets/img/bg-paralax2.jpg);
+ background-position  : center top;
+ background-repeat    : no-repeat;
+ background-size      : cover;
+ background-attachment: fixed;
+ color                : #FFF;
+ padding-top          : 100px;
+ padding-bottom       : 100px;
 }
 /*----------------------*/
 .custom {
@@ -449,11 +464,12 @@ body {
     #services{
         text-align: center;  
     }
-    #footer .container-fluid .row:only-child{
+    #footer .container-fluid .row .col-md-3{
         text-align: center;
+        border    : 0px ;
     }
     .nav-links li a{
-        color:#FFF;
+        color    :#FFF;
         font-size: .7em;
     }
     .nav-links li:hover .sub-menu{
@@ -484,6 +500,10 @@ body {
     }
     .logo-mobile {
         display: block;
+    }
+    .logo-mobile img{
+        max-height:44px;
+        /* padding:20px ; */
     }
     .head .nav-menu {
         justify-content: space-between;

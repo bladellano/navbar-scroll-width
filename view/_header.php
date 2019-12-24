@@ -65,13 +65,13 @@
   <!-- <div id="facebook"><a href="https://www.facebook.com/NorteMaquinas/" target="_blank" class="fab fa-facebook-f"></a></div> -->
   <!-- <div id="youtube"><a href="https://www.youtube.com/channel/UCkgpJCOuJwAqUXQo3KJALOA" target="_blank" class="fab fa-youtube"></a></div> -->
   <!-- <div id="instagram"><a href="https://www.instagram.com/p/Bu4iwFyHhm8/" target="_blank" class="fab fa-instagram"></a></div> -->
-  <div id="whatsapp"><a href="https://api.whatsapp.com/send?phone=55988554723" target="_blank" class="fab fa-whatsapp"></a></div>
+  <div id="whatsapp"><a href="https://api.whatsapp.com/send?phone=5591981769979" target="_blank" class="fab fa-whatsapp"></a></div>
 </div>
 
 <div class="head"> 
   <div class="nav-menu" id="nav">
-   <i class="fab fa-phoenix-framework logo-mobile" style="font-size: 30px; color:#FFF;"></i>
-   <!-- <div class="logo-mobile"><img src="img/logo_pb_.svg"></div> -->
+   <!-- <i class="fab fa-phoenix-framework logo-mobile" style="font-size: 30px; color:#FFF;"></i> -->
+   <div class="logo-mobile"><img src="assets/img/logo_1.svg"></div>
    <ul class="nav-links">
     <li class="active-menu_">
       <i class="fa fa-chevron-left" aria-hidden="true"></i>
