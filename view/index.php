@@ -101,51 +101,63 @@
 
     <div class="slick-eventos">
       <div>
-        <div class="wrap-slick">
-          <h3>Workshop no Centro de Reuniões Belém/PA</h3>
-          <img src="assets/img/student4.jpg" alt="Imagem do Evento" class="card-img-bottom">
-          <small>Data: 14/12/2019 Horário: 19:00</small>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio harum adipisci velit eum praesentium ullam provident aliquid perspiciatis atque sint iste odit, unde nostrum repudiandae, omnis ex temporibus optio doloribus.
-          </p>
-          <button class="btn btn-success btn-block">COMPRAR</button>
+        <div class="card" style="width: 90%">
+          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-success">Saiba mais</a>
+          </div>
         </div>
-      </div>
-      <div>    <div class="wrap-slick">
-          <h3>Workshop no Centro de Reuniões Belém/PA</h3>
-          <img src="assets/img/student4.jpg" alt="Imagem do Evento" class="card-img-bottom">
-          <small>Data: 14/12/2019 Horário: 19:00</small>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio harum adipisci velit eum praesentium ullam provident aliquid perspiciatis atque sint iste odit, unde nostrum repudiandae, omnis ex temporibus optio doloribus.
-          </p>
-          <button class="btn btn-success btn-block">COMPRAR</button>
-        </div></div>
-      <div>    <div class="wrap-slick">
-          <h3>Workshop no Centro de Reuniões Belém/PA</h3>
-          <img src="assets/img/student4.jpg" alt="Imagem do Evento" class="card-img-bottom">
-          <small>Data: 14/12/2019 Horário: 19:00</small>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio harum adipisci velit eum praesentium ullam provident aliquid perspiciatis atque sint iste odit, unde nostrum repudiandae, omnis ex temporibus optio doloribus.
-          </p>
-          <button class="btn btn-success btn-block">COMPRAR</button>
-        </div></div>
-      <div>    <div class="wrap-slick">
-          <h3>Workshop no Centro de Reuniões Belém/PA</h3>
-          <img src="assets/img/student4.jpg" alt="Imagem do Evento" class="card-img-bottom">
-          <small>Data: 14/12/2019 Horário: 19:00</small>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio harum adipisci velit eum praesentium ullam provident aliquid perspiciatis atque sint iste odit, unde nostrum repudiandae, omnis ex temporibus optio doloribus.
-          </p>
-          <button class="btn btn-success btn-block">COMPRAR</button>
-        </div></div>
-      <div>    <div class="wrap-slick">
-          <h3>Workshop no Centro de Reuniões Belém/PA</h3>
-          <img src="assets/img/student2.jpg" alt="Imagem do Evento" class="card-img-bottom">
-          <small>Data: 14/12/2019 Horário: 19:00</small>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio harum adipisci velit eum praesentium ullam provident aliquid perspiciatis atque sint iste odit, unde nostrum repudiandae, omnis ex temporibus optio doloribus.
-          </p>
-          <button class="btn btn-success btn-block">COMPRAR</button>
-        </div></div>
-    </div> 
-<!--     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur.
-</p> -->
-</div>
+      </div> 
+
+      <div>
+        <div class="card" style="width: 90%">
+          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-success">Saiba mais</a>
+          </div>
+        </div>
+      </div> 
+
+      <div>
+        <div class="card" style="width: 90%">
+          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-success">Saiba mais</a>
+          </div>
+        </div>
+      </div> 
+
+      <div>
+        <div class="card" style="width: 90%">
+          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-success">Saiba mais</a>
+          </div>
+        </div>
+      </div> 
+
+      <div>
+        <div class="card" style="width: 90%">
+          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-success">Saiba mais</a>
+          </div>
+        </div>
+      </div> 
+
+    </div><!--slick eventos-->
+
+  </div>
 </div>
 
 <div id="services">
@@ -180,12 +192,18 @@
     </div>
   </div>
 </div>
-<div id="location">
+<div id="depoimentos">
   <div class="container">    
-    <h2>Localização</h2>
+    <h2>DEPOIMENTOS</h2>
     <hr>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, delectus sunt architecto iusto fugit saepe! Fuga eos nesciunt cupiditate, quo architecto illum, placeat, maxime nemo voluptatibus cumque explicabo reprehenderit et. orem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, delectus sunt architecto iusto fugit saepe! Fuga eos nesciunt cupiditate, quo architecto illum, placeat, maxime nemo voluptatibus cumque explicabo reprehenderit et.</p> 
-    
+    <div class="slick-depoimentos">
+      <div>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, velit! Quo fugiat ipsam asperiores nam voluptatem beatae perspiciatis optio laudantium nobis, illo placeat. Similique accusantium minus, nesciunt minima, ut dolorum"
+      </div>
+      <div>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet suscipit odit accusamus fugiat tempora doloremque perferendis"
+      </div>
+      <div>"Expedita cumque itaque aperiam possimus temporibus repudiandae molestiae natus voluptate culpa repellendus nulla optio perspiciatis pariatur veritatis sunt soluta, dolor autem ex"
+      </div>
+    </div>   
   </div>
 </div>
 

@@ -85,19 +85,35 @@
 <script>
   $(document).ready(function() {
 
-    $('.slick-eventos').slick({
-     slidesToShow: 3,
-     slidesToScroll: 1,
-     // dots: true,
-     // infinite: true,
-     // speed: 500,
-     // fade: true,
-     // cssEase: 'linear'
-   });
-
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
+    $('.slick-depoimentos').slick({
+      autoplay:true
     });
+
+    $('.slick-eventos').slick({ 
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+         centerMode: true,
+         slidesToShow: 1,
+         slidesToScroll: 1
+       }        
+     } 
+     ]
+   });  
+
+    $('[data-toggle="tooltip"]').tooltip()
 
     $("#owl-demo").owlCarousel({
       navigation : true, // Show next and prev buttons

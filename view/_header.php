@@ -117,7 +117,7 @@
   </li> -->
 
   <li><a href="#footer">Contato</a></li>
-  <li class="btn btn-success"><a href="#">CONSULTE-NOS</a></li>
+  <li><a class="btn btn-success" href="#">CONSULTE-NOS</a></li>
 </ul>
 
 <div class="burger">
