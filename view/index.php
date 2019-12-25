@@ -94,12 +94,58 @@
 </div>
 </div>
 
-<div id="about">
-  <h2>Sobre a Empresa</h2>
+<div id="eventos">
+  <h2>Eventos</h2>
   <hr>
-  <div class="container">        
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur.</p>
-  </div>
+  <div class="container">       
+
+    <div class="slick-eventos">
+      <div>
+        <div class="wrap-slick">
+          <h3>Workshop no Centro de Reuniões Belém/PA</h3>
+          <img src="assets/img/student4.jpg" alt="Imagem do Evento" class="card-img-bottom">
+          <small>Data: 14/12/2019 Horário: 19:00</small>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio harum adipisci velit eum praesentium ullam provident aliquid perspiciatis atque sint iste odit, unde nostrum repudiandae, omnis ex temporibus optio doloribus.
+          </p>
+          <button class="btn btn-success btn-block">COMPRAR</button>
+        </div>
+      </div>
+      <div>    <div class="wrap-slick">
+          <h3>Workshop no Centro de Reuniões Belém/PA</h3>
+          <img src="assets/img/student4.jpg" alt="Imagem do Evento" class="card-img-bottom">
+          <small>Data: 14/12/2019 Horário: 19:00</small>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio harum adipisci velit eum praesentium ullam provident aliquid perspiciatis atque sint iste odit, unde nostrum repudiandae, omnis ex temporibus optio doloribus.
+          </p>
+          <button class="btn btn-success btn-block">COMPRAR</button>
+        </div></div>
+      <div>    <div class="wrap-slick">
+          <h3>Workshop no Centro de Reuniões Belém/PA</h3>
+          <img src="assets/img/student4.jpg" alt="Imagem do Evento" class="card-img-bottom">
+          <small>Data: 14/12/2019 Horário: 19:00</small>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio harum adipisci velit eum praesentium ullam provident aliquid perspiciatis atque sint iste odit, unde nostrum repudiandae, omnis ex temporibus optio doloribus.
+          </p>
+          <button class="btn btn-success btn-block">COMPRAR</button>
+        </div></div>
+      <div>    <div class="wrap-slick">
+          <h3>Workshop no Centro de Reuniões Belém/PA</h3>
+          <img src="assets/img/student4.jpg" alt="Imagem do Evento" class="card-img-bottom">
+          <small>Data: 14/12/2019 Horário: 19:00</small>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio harum adipisci velit eum praesentium ullam provident aliquid perspiciatis atque sint iste odit, unde nostrum repudiandae, omnis ex temporibus optio doloribus.
+          </p>
+          <button class="btn btn-success btn-block">COMPRAR</button>
+        </div></div>
+      <div>    <div class="wrap-slick">
+          <h3>Workshop no Centro de Reuniões Belém/PA</h3>
+          <img src="assets/img/student2.jpg" alt="Imagem do Evento" class="card-img-bottom">
+          <small>Data: 14/12/2019 Horário: 19:00</small>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio harum adipisci velit eum praesentium ullam provident aliquid perspiciatis atque sint iste odit, unde nostrum repudiandae, omnis ex temporibus optio doloribus.
+          </p>
+          <button class="btn btn-success btn-block">COMPRAR</button>
+        </div></div>
+    </div> 
+<!--     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab debitis corporis possimus perferendis unde voluptates doloremque porro eligendi reprehenderit adipisci eveniet aliquam ipsa deleniti nemo, eius provident optio distinctio tenetur.
+</p> -->
+</div>
 </div>
 
 <div id="services">

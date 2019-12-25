@@ -18,6 +18,13 @@
   <link href="assets/css/style.css" rel="stylesheet" type="text/css">
   <link href="assets/css/redes-socials.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<!--   <link href="lib/slick/slick.css" rel="stylesheet" type="text/css">
+  <link href="lib/slick/slick-theme.scss" rel="stylesheet" type="text/css">
+ -->
+  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+
 </head>
 
 <style>
@@ -92,7 +99,7 @@
         </ul>
       </div>
     </li>
-    <li><a href="#footer">Eventos</a></li>
+    <li><a href="#eventos">Eventos</a></li>
 
     <li><a href="#links-services">Parceiros</a></li>
     <!-- <li><a href="proposta-pedagogica">Proposta Pedagógica</a></li> -->
