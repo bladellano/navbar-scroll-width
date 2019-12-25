@@ -99,7 +99,8 @@
         </ul>
       </div>
     </li>
-    <li><a href="#eventos">Eventos</a></li>
+    <!-- <li><a href="#eventos">Eventos</a></li> -->
+    <li><a href="all-eventos">Eventos</a></li>
 
     <li><a href="#links-services">Parceiros</a></li>
     <!-- <li><a href="proposta-pedagogica">Proposta Pedagógica</a></li> -->

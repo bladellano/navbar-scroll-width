@@ -15,6 +15,13 @@ $app->get(
 );
 
 $app->get(
+    '/all-eventos',
+    function (){
+        require_once("view/all-eventos.php");   
+    }
+);
+
+$app->get(
     '/proposta-pedagogica',
     function (){
         require_once("view/proposta-pedagogica.php");   
