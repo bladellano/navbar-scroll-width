@@ -34,11 +34,15 @@
     height : auto;
   }
 </style>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0"></script>
+
 <body>
 
   <div class="container-fluid">
     <div class="row title">
-      <div class="col-md-3 text-center">
+      <div class="col-md-3 text-left">
        <a href="./"><img src="assets/img/logo_2.svg" alt=""></a>
      </div>  
      <div class="col-md-2">

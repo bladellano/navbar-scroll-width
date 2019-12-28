@@ -41,7 +41,13 @@
         <li><a href="#">Orçamento</a></li>
         <li><a href="#">Fale Conosco</a></li>
       </ul></div>
-      <div class="col-md-3">      
+      <div class="col-md-3">  
+
+
+<div class="fb-page" data-href="https://www.facebook.com/paideiaeducacionalpa/" data-tabs="timeline" data-width="" data-height="400px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/paideiaeducacionalpa/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/paideiaeducacionalpa/">Paideia Educacional</a></blockquote></div>
+
+    
+<!-- 
         <h3>Ligamos para você</h3>
         <p>Deixe seu nome e número de telefone que ligamos para você.</p>
         <form action="">           
@@ -49,7 +55,9 @@
           <input type="email" class="form-control form-control-sm" placeholder="E-mail:">
           <input type="text" class="form-control form-control-sm" placeholder="Telefone:"> 
           <button class="btn btn-outline-primary btn-block btn-sm">Enviar</button> 
-        </form>
+        </form> -->
+
+
       </div>
     </div>   
   </div>
