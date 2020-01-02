@@ -1,8 +1,3 @@
-:root{
-	--cor-color-principal : #7F9C97;
-	--cor-color-secundaria: #273A40; 
-	--cor-bg-principal    : #FFFFFF;
-}
 .rede {
 	position: fixed;
 	top     : 200px;

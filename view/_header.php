@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>.: Paideia Educacional :.</title>
@@ -19,11 +19,11 @@
   <link href="assets/css/redes-socials.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
-<!--   <link href="lib/slick/slick.css" rel="stylesheet" type="text/css">
+  <link href="lib/slick/slick.css" rel="stylesheet" type="text/css">
   <link href="lib/slick/slick-theme.scss" rel="stylesheet" type="text/css">
- -->
+<!-- 
   <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/> -->
 
 </head>
 
