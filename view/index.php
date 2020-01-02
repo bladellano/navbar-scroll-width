@@ -3,10 +3,10 @@
 <!-- carousel -->
 <div id="owl-demo" class="owl-carousel owl-theme">
 
-  <div class="item"><img src="assets/img/student1.jpg" alt=""></div>
   <div class="item"><img src="assets/img/paideia1.jpg" alt=""></div>
-  <div class="item"><img src="assets/img/student2.jpg" alt=""></div>
-  <div class="item"><img src="assets/img/student4.jpg" alt=""></div>
+  <div class="item"><img src="assets/img/student1.jpg" alt=""></div>
+  <!-- <div class="item"><img src="assets/img/student2.jpg" alt=""></div> -->
+  <!-- <div class="item"><img src="assets/img/student4.jpg" alt=""></div> -->
 
 </div>
 <!-- End carousel -->
@@ -183,11 +183,25 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="text-center">BEM-VINDO</h2>
-        <p class="lead text-center">Lorem ipsum is dolor sit nmet, consectetur adipiscing elit</p>
+        <h2 class="text-center">FALE CONOSCO</h2>
+        <hr>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="wrap-form text-right">
+              <form action="" class="form-contato">
+                <input type="text" name="nome" placeholder="NOME">
+                <input type="email" name="email" placeholder="E-MAIL">
+                <input type="text" name="telefone" placeholder="TELEFONE">
+                <textarea name="mensagem" id="mensagem" cols="30" rows="4" placeholder="MENSAGEM"></textarea>
+                <button class="btn btn-success ">ENVIAR</button>
+              </form>
+            </div>
+          </div>
+        </div>
+    <!--     <p class="lead text-center">Lorem ipsum is dolor sit nmet, consectetur adipiscing elit</p>
         <p class="text-center">
           <a href="#" class="btn btn-outline-success">Matricule-se</a>          
-        </p>
+        </p> -->
       </div>
     </div>
   </div>
@@ -197,11 +211,13 @@
     <h2>DEPOIMENTOS</h2>
     <hr>
     <div class="slick-depoimentos">
-      <div>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, velit! Quo fugiat ipsam asperiores nam voluptatem beatae perspiciatis optio laudantium nobis, illo placeat. Similique accusantium minus, nesciunt minima, ut dolorum"
+      <div>
+        <img src="assets/img/face.jpg" alt="">
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, velit! Quo fugiat ipsam asperiores nam voluptatem beatae perspiciatis optio laudantium nobis, illo placeat. Similique accusantium minus, nesciunt minima, ut dolorum"
       </div>
-      <div>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet suscipit odit accusamus fugiat tempora doloremque perferendis"
+      <div>      <img src="assets/img/face.jpg" alt="">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet suscipit odit accusamus fugiat tempora doloremque perferendis"
       </div>
-      <div>"Expedita cumque itaque aperiam possimus temporibus repudiandae molestiae natus voluptate culpa repellendus nulla optio perspiciatis pariatur veritatis sunt soluta, dolor autem ex"
+      <div>      <img src="assets/img/face.jpg" alt="">"Expedita cumque itaque aperiam possimus temporibus repudiandae molestiae natus voluptate culpa repellendus nulla optio perspiciatis pariatur veritatis sunt soluta, dolor autem ex"
       </div>
     </div>   
   </div>
