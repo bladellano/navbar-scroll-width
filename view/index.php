@@ -36,8 +36,8 @@
    <div class="row">
     <div class="col-md-6">
       <p class="small">O que fazemos?</p>
-      <h3>Acessória e Consultoria em Projetos Educacionais e Empresariais</h3>    
-      <p>A Paideia Educacional é uma empresa de assessoria e consultoria na área de educação formada por profissionais que atuam na área de ensino superior, escolas na educação básica, profissionalizantes, técnicas, promoções de eventos educacionais há mais de 1 ano, tendo exercido neste período diversas atividades e ocupando postos nas Instituições de Ensino, colhendo resultados positivos nos trabalhos realizados.
+      <h3>Assessoria e Consultoria em Projetos Educacionais e Empresariais</h3>    
+      <p>A Paideia Educacional é uma empresa de assessoria e consultoria na área de educação e empresarial formada por profissionais renomados na área, que atuaram no ensino superior, escolas na educação básica, profissionalizantes, técnicas, realizações de eventos educacionais e empresarias há mais de 15 anos, tendo exercido neste período diversas atividades e ocupando postos nas Instituições de Ensino, colhendo resultados positivos nos trabalhos realizados.
       </p>
     </div>  
     <div class="col-md-6">
@@ -57,25 +57,25 @@
         <a href="#">
           <i class="fas fa-book-open"></i>
           <!-- <p>MATERIAL<br/>DIDÁTICO</p> -->
-          <p>Acessória e Consultoria em Projetos Educacionais e Empresariais</p>
+          <p>Assessoria e Consultoria em Projetos Educacionais e Empresariais</p>
         </a>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-4 col-6">
         <a href="#">
          <i class="fas fa-tv"></i>
-         <p>Assessoramento e Acompanhamento de estudos em aulas Particulares</p>
+         <p>Assessoria Pedagógica Personalizada para alunos do Ensino Fundamental</p>
        </a>
      </div>
      <div class="col-lg-2 col-md-4 col-sm-4 col-6">
       <a href="#">
         <i class="fas fa-school"></i>
-        <p>Acessória e Consultoria de Escolas na Educação Básica</p>
+        <p>Assessoria e Consultoria de Escolas na Educação Básica</p>
       </a>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-4 col-6">
       <a href="#">
         <i class="fab fa-pagelines"></i>
-        <p>Acessória e Consultoria de escolas profissionalizantes e Técnicas</p>
+        <p>Assessoria e Consultoria de escolas profissionalizantes e Técnicas</p>
       </a>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-4 col-6">
@@ -167,7 +167,8 @@
       <h2>Criação de Sites Responsivos e Mobiles</h2>
       <p>Criação de sites mobiles e responsivos. Sites que se adaptam a qualquer resolução de tela, sem criar barra de rolagem.</p>
       <p>Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.</p>
-      <button class="btn btn-outline-primary">SOLICITAR ORÇAMENTO</button>
+      <!-- <button class="btn btn-outline-primary">SOLICITAR ORÇAMENTO</button> -->
+      <button class="btn btn-warning">SOLICITAR ORÇAMENTO</button>
       <br/><br/>
     </div>
     <div class="col-md-6">
@@ -213,13 +214,20 @@
     <div class="slick-depoimentos">
       <div>
         <img src="assets/img/face.jpg" alt="">
+        <p>Rodrigo Branas</p>
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, velit! Quo fugiat ipsam asperiores nam voluptatem beatae perspiciatis optio laudantium nobis, illo placeat. Similique accusantium minus, nesciunt minima, ut dolorum"
       </div>
-      <div>      <img src="assets/img/face.jpg" alt="">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet suscipit odit accusamus fugiat tempora doloremque perferendis"
+      <div>      
+        <img src="assets/img/face-2.jpg" alt="">
+        <p>Renata Pinheiro</p>
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet suscipit odit accusamus fugiat tempora doloremque perferendis"
       </div>
-      <div>      <img src="assets/img/face.jpg" alt="">"Expedita cumque itaque aperiam possimus temporibus repudiandae molestiae natus voluptate culpa repellendus nulla optio perspiciatis pariatur veritatis sunt soluta, dolor autem ex"
+      <div>      
+        <img src="assets/img/face-3.jpg" alt="">
+        <p>Camila Santos</p>
+        "Expedita cumque itaque aperiam possimus temporibus repudiandae molestiae natus voluptate culpa repellendus nulla optio perspiciatis pariatur veritatis sunt soluta, dolor autem ex"
       </div>
-    </div>   
+    </div>  
   </div>
 </div>
 

@@ -39,6 +39,26 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0"></script>
 
 <body>
+  <!-- Modal -->
+<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <div class="container-fluid">
     <div class="row title">
@@ -46,11 +66,11 @@
        <a href="./"><img src="assets/img/logo_2.svg" alt=""></a>
      </div>  
      <div class="col-md-2">
-<!--      <div class="custom">
+     <div class="custom">
       <i class="fas fa-map-marker-alt"></i>
       <h3>ENDEREÇO</h3>
       <h4>Av. Gentil Bittencourt 0000.</h4>
-    </div> -->
+    </div>
   </div>
   <div class="col-md-3">
    <div class="custom">
@@ -88,7 +108,7 @@
    <!-- <i class="fab fa-phoenix-framework logo-mobile" style="font-size: 30px; color:#FFF;"></i> -->
    <div class="logo-mobile"><img src="assets/img/logo_1.svg"></div>
    <ul class="nav-links">
-    <li><a href="#">Home</a></li>
+    <li><a href="./">Home</a></li>
     <li><a href="#sobre-nos">Sobre nós</a></li>
 
     <li>
@@ -97,16 +117,16 @@
       <i class="fa fa-chevron-down" aria-hidden="true"></i>
       <div class="sub-menu">
         <ul>
-          <li><a href="">Assessoria<hr></a></li>
-          <li><a href="">Consultoria<hr></a></li>
-          <!-- <li><a href="">Equipe<hr></a></li> -->
-        </ul>
+          <li><a href="assessoria">Assessoria<hr></a></li>
+          <li><a href="consultoria">Consultoria<hr></a></li>
+          <li><a href="cursos-on-line">Cursos on-line<hr></a></li>
+        </ul> 
       </div>
     </li>
     <!-- <li><a href="#eventos">Eventos</a></li> -->
-    <li><a href="all-eventos">Eventos</a></li>
+    <li><a href="#eventos">Eventos</a></li>
 
-    <li><a href="#links-services">Parceiros</a></li>
+    <li><a href="#depoimentos">Parceiros</a></li>
     <!-- <li><a href="proposta-pedagogica">Proposta Pedagógica</a></li> -->
 <!--     <li>
      <i class="fa fa-chevron-left" aria-hidden="true"></i>
@@ -121,8 +141,8 @@
     </div>
   </li> -->
 
-  <li><a href="#footer">Contato</a></li>
-  <li><a class="btn btn-success" href="#">CONSULTE-NOS</a></li>
+  <li><a href="#paralax">Fale Conosco</a></li>
+  <li><a class="btn btn-warning" href="#" data-toggle="modal" data-target="#modalExemplo">CONSULTE-NOS</a></li>
 </ul>
 
 <div class="burger">
