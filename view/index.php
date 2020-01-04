@@ -83,10 +83,12 @@
 
     <div class="slick-eventos">
       <div>
-        <div class="card" style="width: 98%">
-          <img class="card-img-top" src="assets/img/kotaro-tuji.jpg" alt="Card image cap">
+        <div class="card" style="width: 98%;">
+          <!-- <img class="card-img-top" src="assets/img/kotaro-tuji.jpg" alt="Card image cap"> -->
+          <h2 style="color: #FFF;background: darkcyan;padding-bottom: 20px;padding-top: 5px;">
+          WORKSHOP conversando sobre a BNCC</h2>
           <div class="card-body">
-            <h5 class="card-title">WORKSHOP conversando sobre a BNCC</h5>
+            <!-- <h5 class="card-title">WORKSHOP conversando sobre a BNCC</h5> -->
             Venha aprender sobre PNL (Programação Neurolinguística).<br/>
             Local: Hotel Regente | Salão: Baia do Sol<br/>
             Dia: 18/01/2020 | Horário: 08h às 18h<br/>
