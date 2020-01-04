@@ -5,29 +5,11 @@
 
   <div class="item"><img src="assets/img/paideia1.jpg" alt=""></div>
   <div class="item"><img src="assets/img/student1.jpg" alt=""></div>
-  <!-- <div class="item"><img src="assets/img/student2.jpg" alt=""></div> -->
-  <!-- <div class="item"><img src="assets/img/student4.jpg" alt=""></div> -->
 
 </div>
 <!-- End carousel -->
 
 <section>
-  <!-- section-1 -->
-<!--     <div id="information">
-    <div class="container">        
-     <div class="row">
-       <div class="col-md-4">
-         <p>61348 <small>Stadium Capacity</small></p>
-       </div> 
-       <div class="col-md-4">
-         <p>2010 <small>Founded</small></p>
-       </div>
-       <div class="col-md-4">
-         <p>7th <small>Eastern Conference</small></p>
-       </div>           
-     </div>
-   </div>
- </div> -->
 
  <div id="sobre-nos">
   <div class="container">
@@ -101,7 +83,22 @@
 
     <div class="slick-eventos">
       <div>
-        <div class="card" style="width: 90%">
+        <div class="card" style="width: 98%">
+          <img class="card-img-top" src="assets/img/kotaro-tuji.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">WORKSHOP conversando sobre a BNCC</h5>
+            Venha aprender sobre PNL (Programação Neurolinguística).<br/>
+            Local: Hotel Regente | Salão: Baia do Sol<br/>
+            Dia: 18/01/2020 | Horário: 08h às 18h<br/>
+            Investimento: R$ 60,00<br/>
+            Contatos: 91 9 8360-4463 | 91 9 8208-4651<br/>
+            <a href="https://www.sympla.com.br/educadores-de-alto-nivel---tecnicas-de-coaching-e-pnl__743548" class="btn btn-success" target="_blank">COMPRAR INGRESSOS</a>
+          </div>
+        </div>
+      </div> 
+
+      <div>
+        <div class="card" style="width: 98%">
           <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -112,7 +109,7 @@
       </div> 
 
       <div>
-        <div class="card" style="width: 90%">
+        <div class="card" style="width: 98%">
           <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -123,7 +120,7 @@
       </div> 
 
       <div>
-        <div class="card" style="width: 90%">
+        <div class="card" style="width: 98%">
           <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -134,18 +131,7 @@
       </div> 
 
       <div>
-        <div class="card" style="width: 90%">
-          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-success">Saiba mais</a>
-          </div>
-        </div>
-      </div> 
-
-      <div>
-        <div class="card" style="width: 90%">
+        <div class="card" style="width: 98%">
           <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -164,16 +150,15 @@
   <div class="container">        
    <div class="row">
      <div class="col-md-6">
-      <h2>Criação de Sites Responsivos e Mobiles</h2>
-      <p>Criação de sites mobiles e responsivos. Sites que se adaptam a qualquer resolução de tela, sem criar barra de rolagem.</p>
-      <p>Em 2016, o acesso à internet via dispositivos móvel (ou mobile) ultrapassou os acessos via desktop.</p>
+      <h2>Convite Workshop - Conversando sobre a BNCC</h2>
+      <p><b>BNCC</b> é uma sigla para Base Nacional Comum Curricular. Ela nada mais é que um documento que define as aprendizagens que todos os alunos do Brasil devem desenvolver em cada etapa da Educação Básica.</p>
       <!-- <button class="btn btn-outline-primary">SOLICITAR ORÇAMENTO</button> -->
-      <button class="btn btn-warning">SOLICITAR ORÇAMENTO</button>
+      <button class="btn btn-warning">DÚVIDAS?</button>
       <br/><br/>
     </div>
     <div class="col-md-6">
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6sPzF-910zY"></iframe>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8Ac-RvmDWvs"></iframe>
       </div>
     </div>
   </div>
@@ -199,10 +184,7 @@
             </div>
           </div>
         </div>
-    <!--     <p class="lead text-center">Lorem ipsum is dolor sit nmet, consectetur adipiscing elit</p>
-        <p class="text-center">
-          <a href="#" class="btn btn-outline-success">Matricule-se</a>          
-        </p> -->
+
       </div>
     </div>
   </div>

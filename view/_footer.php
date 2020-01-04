@@ -11,8 +11,6 @@
         Horário de Funcionamento: Comercial<br/>
       Responsável pela empresa: Rosangela Santos e William Borralho</p>
       <p><i class="fas fa-envelope"></i> contato@paideiaeducacional.com</p>
-      <!-- <p>Rua Lorem Ipsum is Simply, 488 - Conj. 205 Centro Cívico - Bacurau - MA (41) 0000-0000</p> -->
-      <!-- <p>Av. Lorem Ipsum is Simply - São Bento - SP (11) 9999-9999</p> -->
       <a href="" class="icon-socials">
         <i class="fab fa-facebook-f"></i>
       </a>
@@ -44,9 +42,8 @@
       <div class="col-md-3">  
 
 
-<div class="fb-page" data-href="https://www.facebook.com/paideiaeducacionalpa/" data-tabs="timeline" data-width="" data-height="400px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/paideiaeducacionalpa/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/paideiaeducacionalpa/">Paideia Educacional</a></blockquote></div>
+        <div class="fb-page" data-href="https://www.facebook.com/paideiaeducacionalpa/" data-tabs="timeline" data-width="" data-height="400px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/paideiaeducacionalpa/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/paideiaeducacionalpa/">Paideia Educacional</a></blockquote></div>
 
-    
 <!-- 
         <h3>Ligamos para você</h3>
         <p>Deixe seu nome e número de telefone que ligamos para você.</p>
@@ -78,15 +75,12 @@
 </div>
 
 <script src="lib/jquery/jquery.js"></script>
-
-<script src="https://unpkg.com/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
+<script src="lib/bootstrap/popper.min.js"></script>
+<script src="lib/bootstrap/bootstrap.min.js"></script>
 <script src="lib/owl-carousel/owl.carousel.min.js"></script>
+<script src="lib/slick/slick.min.js"></script>
 
 <script src="https://unpkg.com/scrollreveal"></script>
-
-<script src="lib/slick/slick.min.js"></script>
 
 <script src="assets/js/main.js"></script>
 
@@ -124,8 +118,8 @@
     $('[data-toggle="tooltip"]').tooltip()
 
     $("#owl-demo").owlCarousel({
-      navigation : true, // Show next and prev buttons
-      slideSpeed : 300,
+      navigation: true, // Show next and prev buttons
+      slideSpeed: 300,
       paginationSpeed : 400,
       singleItem:true,
       navigation:false,
