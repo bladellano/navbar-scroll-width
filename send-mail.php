@@ -45,7 +45,7 @@ $body = '<!DOCTYPE html>
 		<tr>
 			<td align="center"><p style="color:#999">
 				© 2020 Paideia Educacional. Todos os direitos reservados.<br/>
-				Enviado a partir:'.$_SERVER['REQUEST_URI'].'<br/>
+				Enviado a partir:'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'<br/>
 				Ip de envio:'.$_SERVER['SERVER_ADDR'].'
 			</p></td>
 		</tr>

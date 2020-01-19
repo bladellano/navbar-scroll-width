@@ -42,8 +42,8 @@
 		<tr>
 			<td align="center"><p style="color:#999">
 				© 2020 Paideia Educacional. Todos os direitos reservados.<br/>
-				Enviado a partir: <?php echo $_SERVER['REQUEST_URI']; ?> <br/>
-				Ip de envio: <?php echo $_SERVER['SERVER_ADDR']; ?>
+				Enviado a partir: <?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" ?> <br/>
+				Ip de envio: <?php echo $_SERVER['SERVER_ADDR']; ?>		 
 			</p></td>
 		</tr>
 	</table>
