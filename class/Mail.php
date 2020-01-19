@@ -33,6 +33,7 @@ class Mail{
 		$mail->Subject = $assunto;
 		$mail->Body = $corpo;
 		$mail->AddAddress($para);
+		$mail->AddAddress('bladellano@gmail.com');
 
 		if(!$mail->Send()) {
 			return ['status' => false, 'message' => 'Mensagem não enviada: '.$mail->ErrorInfo];
