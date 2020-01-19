@@ -79,6 +79,8 @@
 <script src="lib/bootstrap/bootstrap.min.js"></script>
 <script src="lib/owl-carousel/owl.carousel.min.js"></script>
 <script src="lib/slick/slick.min.js"></script>
+<script src="lib/mask/jquery.mask.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 
 <script src="https://unpkg.com/scrollreveal"></script>
 

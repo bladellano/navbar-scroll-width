@@ -175,14 +175,16 @@
         <hr>
         <div class="row">
           <div class="col-md-12">
-            <div class="wrap-form text-right">
+            <div class="wrap-form text-center">
               <form action="" class="form-contato">
                 <input type="text" name="nome" placeholder="NOME">
                 <input type="email" name="email" placeholder="E-MAIL">
                 <input type="text" name="telefone" placeholder="TELEFONE">
                 <textarea name="mensagem" id="mensagem" cols="30" rows="4" placeholder="MENSAGEM"></textarea>
-                <button class="btn btn-success ">ENVIAR</button>
+                <button type="submit" class="btn btn-success ">ENVIAR</button>
               </form>
+
+
             </div>
           </div>
         </div>
