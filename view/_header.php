@@ -80,7 +80,7 @@
    <div class="custom">
      <i class="fas fa-envelope"></i>
      <h3>E-MAIL PARA CONTATO</h3>
-     <h4>contato@paideiaeducacional</h4>
+     <h4>diretor@paideiaeducacional.com</h4>
    </div>
  </div>
 
