@@ -332,8 +332,9 @@ body {
     text-align: center;
     font-size:20px;
     font-style: italic;
-    padding: 10px;
+    padding: 8px;
     line-height: 28px;
+    color:var(--cor-color-secundaria);
 }
 #depoimentos h2{
     color: #FFF;
@@ -565,7 +566,21 @@ h3.border-bottom.border-gray{
     padding         : 10px 12px;
     background-color: #FFF;
     border-bottom   : 1px dotted var(--cor-color-principal);
-    border-top      : 6px solid var(--cor-color-principal);
+    /* border-top      : 6px solid var(--cor-color-principal); */
+}
+
+.linha-top{
+    background-color:var(--cor-color-principal);
+    color:#FFF;
+}
+.linha-top a{
+    color:#FFF;
+    margin-right: 40px;
+}
+.linha-top a:before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f0e0  ";
 }
 
 @media screen and (max-width:768px) {

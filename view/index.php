@@ -177,6 +177,7 @@
           <div class="col-md-12">
             <div class="wrap-form text-center">
               <form action="" class="form-contato">
+
                 <input type="text" name="nome" placeholder="NOME">
                 <input type="email" name="email" placeholder="E-MAIL">
                 <input type="text" name="telefone" placeholder="TELEFONE">

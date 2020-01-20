@@ -6,7 +6,7 @@
         $('input[name="telefone"]').mask('(00) 00000-0000');
 
         /* Formulário de Contato */
-     /*   $('input[name="nome"]').val('Camilo Pesanha Silva');
+/*        $('input[name="nome"]').val('Camilo Pesanha Silva');
         $('input[name="email"]').val('camilopesanha1988@gmail.com');
         $('input[name="telefone"]').val('(91)98265-0277');
         $('textarea[name="mensagem"]').val(`LoremIpsum360 ° é um gerador on-line falso texto livre. Ele oferece um simulador de texto completo para gerar texto de substituição ou texto alternativo para seus modelos. Possui textos aleatórios diferentes em latim e cirílico para gerar exemplos de textos em diferentes línguas.
