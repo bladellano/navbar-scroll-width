@@ -13,7 +13,7 @@
 
  <div id="sobre-nos">
   <div class="container">
-   <h2>Sobre nós</h2>
+   <h2><i class="far fa-building"></i> Sobre nós</h2>
    <hr><br>
    <div class="row">
     <div class="col-md-6">
@@ -30,8 +30,40 @@
 </div>
 </div>
 
+<!-- Enquete -->
+<div id="enquete">
+  <!-- <h2><i class="fas fa-poll-h"></i> Enquete</h2> -->
+  <!-- <hr> -->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-4">
+        <h3>NOTÍCIAS</h3>        
+        <ul class="noticias">
+          <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
+        </ul>
+
+      </div> 
+      <div class="col-md-4">
+        <a href="https://www.flickr.com/photos/186651003@N06/" target="_blank"><img src="assets/img/galeria-de-fotos.jpg" alt="Galeria" width="100%"></a>
+  
+      </div> 
+      <div class="col-md-4">
+        <h3>ENQUETE</h3>        
+        <!-- Você pode alterar os valores de largura / altura neste código... -->
+        <iframe frameborder="0" id="iframeD8R3Y1A8I4K8G7Y6D" src="https://www.survio.com/survey/i/D8R3Y1A8I4K8G7Y6D" height="380" width="100%"></iframe>
+
+      </div> 
+
+    </div>
+  </div>
+</div>
+
 <div id="links-services">
-  <h2>Serviços</h2>
+  <h2><i class="fas fa-briefcase"></i> Serviços</h2>
   <hr>
   <div class="container">        
     <div class="row">
@@ -77,146 +109,136 @@
 </div>
 
 <div id="eventos">
-  <h2>Eventos</h2>
+  <h2><i class="far fa-calendar-alt"></i> Agenda de Eventos</h2>
   <hr>
   <div class="container">       
 
     <div class="slick-eventos">
       <div>
-        <div class="card" style="width: 98%;">
-          <!-- <img class="card-img-top" src="assets/img/kotaro-tuji.jpg" alt="Card image cap"> -->
-          <h2 style="color: #FFF;background: darkcyan;padding-bottom: 20px;padding-top: 5px;">
-          WORKSHOP conversando sobre a BNCC</h2>
-          <div class="card-body">
-            <!-- <h5 class="card-title">WORKSHOP conversando sobre a BNCC</h5> -->
-            Venha aprender sobre PNL (Programação Neurolinguística).<br/>
-            Local: Hotel Regente | Salão: Baia do Sol<br/>
-            Dia: 18/01/2020 | Horário: 08h às 18h<br/>
-            Investimento: R$ 60,00<br/>
-            Contatos: 91 9 8360-4463 | 91 9 8208-4651<br/>
-            <a href="https://www.sympla.com.br/educadores-de-alto-nivel---tecnicas-de-coaching-e-pnl__743548" class="btn btn-success" target="_blank">COMPRAR INGRESSOS</a>
-          </div>
-        </div>
-      </div> 
-
-      <div>
-        <div class="card" style="width: 98%">
-          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-success">Saiba mais</a>
-          </div>
-        </div>
-      </div> 
-
-      <div>
-        <div class="card" style="width: 98%">
-          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-success">Saiba mais</a>
-          </div>
-        </div>
-      </div> 
-
-      <div>
-        <div class="card" style="width: 98%">
-          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-success">Saiba mais</a>
-          </div>
-        </div>
-      </div> 
-
-      <div>
-        <div class="card" style="width: 98%">
-          <img class="card-img-top" src="assets/img/kristina-paparo.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-success">Saiba mais</a>
-          </div>
-        </div>
-      </div> 
-
-    </div><!--slick eventos-->
-
-  </div>
-</div>
-
-<div id="services">
-  <div class="container">        
-   <div class="row">
-     <div class="col-md-6">
-      <h2>Convite Workshop - Conversando sobre a BNCC</h2>
-      <p><b>BNCC</b> é uma sigla para Base Nacional Comum Curricular. Ela nada mais é que um documento que define as aprendizagens que todos os alunos do Brasil devem desenvolver em cada etapa da Educação Básica.</p>
-      <!-- <button class="btn btn-outline-primary">SOLICITAR ORÇAMENTO</button> -->
-      <button class="btn btn-warning">DÚVIDAS?</button>
-      <br/><br/>
-    </div>
-    <div class="col-md-6">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8Ac-RvmDWvs"></iframe>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-<div id="paralax">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="text-center">FALE CONOSCO</h2>
-        <hr>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="wrap-form text-center">
-              <form action="" class="form-contato">
-
-                <input type="text" name="nome" placeholder="NOME">
-                <input type="email" name="email" placeholder="E-MAIL">
-                <input type="text" name="telefone" placeholder="TELEFONE">
-                <textarea name="mensagem" id="mensagem" cols="30" rows="4" placeholder="MENSAGEM"></textarea>
-                <button type="submit" class="btn btn-success ">ENVIAR</button>
-              </form>
-
-
+        <div class="box-evento" style="background:url('assets/img/xvii-semana-da-pedagogica.jpg')">
+          <div class="box-data-evento">
+            <span>JAN</span>
+            <span>20<span>
+            </div><span class="titulo">XVIII SEMANA PEDAGÓGICA<span>
+              <span class="resumo">Com a presença da nossa diretora... <a href="#paralax">Saiba mais</a> </span>
             </div>
           </div>
-        </div>
 
-      </div>
-    </div>
-  </div>
-</div>
-<div id="depoimentos">
-  <div class="container">    
-    <h2>DEPOIMENTOS</h2>
-    <hr>
-    <div class="slick-depoimentos">
-      <div>
-        <img src="assets/img/face.jpg" alt="">
-        <p>Rodrigo Branas</p>
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, velit! Quo fugiat ipsam asperiores nam voluptatem beatae perspiciatis optio laudantium nobis, illo placeat. Similique accusantium minus, nesciunt minima, ut dolorum"
-      </div>
-      <div>      
-        <img src="assets/img/face-2.jpg" alt="">
-        <p>Renata Pinheiro</p>
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet suscipit odit accusamus fugiat tempora doloremque perferendis"
-      </div>
-      <div>      
-        <img src="assets/img/face-3.jpg" alt="">
-        <p>Camila Santos</p>
-        "Expedita cumque itaque aperiam possimus temporibus repudiandae molestiae natus voluptate culpa repellendus nulla optio perspiciatis pariatur veritatis sunt soluta, dolor autem ex"
-      </div>
-    </div>  
-  </div>
-</div>
+          <div>
+            <div class="box-evento" style="background:url('assets/img/workshop-conversando-sobre-a-bncc.jpeg')">
+              <div class="box-data-evento">
+                <span>JAN</span>
+                <span>18<span>
+                </div><span class="titulo">WORKSHOP<span>
+                  <span class="resumo">conversando sobre a BNCC... <a href="#paralax">Saiba mais</a> </span>
+                </div>
+              </div>
+              <div>
+                <div class="box-evento" style="background:url('assets/img/xvii-semana-da-pedagogica.jpg')">
+                  <div class="box-data-evento">
+                    <span>JAN</span>
+                    <span>20<span>
+                    </div><span class="titulo">XVIII SEMANA PEDAGÓGICA<span>
+                      <span class="resumo">Com a presença da nossa diretora... <a href="#paralax">Saiba mais</a> </span>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="box-evento" style="background:url('assets/img/workshop-conversando-sobre-a-bncc.jpeg')">
+                      <div class="box-data-evento">
+                        <span>JAN</span>
+                        <span>18<span>
+                        </div><span class="titulo">WORKSHOP<span>
+                          <span class="resumo">conversando sobre a BNCC... <a href="#paralax">Saiba mais</a> </span>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="box-evento" style="background:url('assets/img/xvii-semana-da-pedagogica.jpg')">
+                          <div class="box-data-evento">
+                            <span>JAN</span>
+                            <span>20<span>
+                            </div><span class="titulo">XVIII SEMANA PEDAGÓGICA<span>
+                              <span class="resumo">Com a presença da nossa diretora... <a href="#">Saiba mais</a> </span>
+                            </div>
+                          </div>
+
+                          <div>
+                            <div class="box-evento" style="background:url('assets/img/workshop-conversando-sobre-a-bncc.jpeg')">
+                              <div class="box-data-evento">
+                                <span>JAN</span>
+                                <span>18<span>
+                                </div><span class="titulo">WORKSHOP<span>
+                                  <span class="resumo">conversando sobre a BNCC... <a href="#">Saiba mais</a> </span>
+                                </div>
+                              </div>
+                            </div><!--slick eventos-->
+
+                          </div>
+                        </div>
+
+                        <div id="services">
+                          <div class="container">        
+                           <div class="row">
+                             <div class="col-md-6">
+                              <h2>Convite Workshop - Conversando sobre a BNCC</h2>
+                              <p><b>BNCC</b> é uma sigla para Base Nacional Comum Curricular. Ela nada mais é que um documento que define as aprendizagens que todos os alunos do Brasil devem desenvolver em cada etapa da Educação Básica.</p>
+                              <!-- <button class="btn btn-outline-primary">SOLICITAR ORÇAMENTO</button> -->
+                              <button class="btn btn-warning">DÚVIDAS?</button>
+                              <br/><br/>
+                            </div>
+                            <div class="col-md-6">
+                              <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8Ac-RvmDWvs"></iframe>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div id="paralax">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-12">
+                              <h2 class="text-center"> <i class="fas fa-file-signature"></i> FALE CONOSCO</h2>
+                              <hr>
+                              <div class="row">
+                                <div class="col-md-12">
+                                  <div class="wrap-form text-center">
+                                    <form action="" class="form-contato">
+
+                                      <input type="text" name="nome" placeholder="NOME">
+                                      <input type="email" name="email" placeholder="E-MAIL">
+                                      <input type="text" name="telefone" placeholder="TELEFONE">
+                                      <textarea name="mensagem" id="mensagem" cols="30" rows="4" placeholder="MENSAGEM"></textarea>
+                                      <button type="submit" class="btn btn-success ">ENVIAR</button>
+                                    </form>
 
 
-<?php include_once("_footer.php"); ?>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="depoimentos">
+                        <div class="container">    
+                          <h2>DEPOIMENTOS</h2>
+                          <hr>
+                          <div class="slick-depoimentos">
+                            <div>
+                              <img src="assets/img/sem-foto.jpg" alt="">
+                              <p>Amélia Borralho</p>
+                              "Contra fatos não há argumentos. A competência deste grupo se revela a cada dia. Parabéns @paideiaeducacional."
+                            </div>
+                            <div>      
+                              <img src="assets/img/nayara.jpg" alt="">
+                              <p>Naiara Afonso</p>
+                              "Parabéns a Paidéia por palestras maravilhosas e esclarecedoras. Amei! Quando será a próxima?"
+                            </div>                   
+                          </div>  
+                        </div>
+                      </div>
+
+                      <?php include_once("_footer.php"); ?>

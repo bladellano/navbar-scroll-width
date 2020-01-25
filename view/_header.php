@@ -76,12 +76,12 @@
       <div class="col-md-3 text-left">
        <a href="./"><img src="assets/img/logo_2.svg" alt=""></a>
      </div>  
-     <div class="col-md-2">
-       <div class="custom">
+     <div class="col-md-1">
+ <!--       <div class="custom">
         <i class="fas fa-map-marker-alt"></i>
         <h3>ENDEREÇO</h3>
         <h4>Av. Gentil Bittencourt 0000.</h4>
-      </div>
+      </div> -->
     </div>
     <div class="col-md-3">
      <div class="custom">
@@ -98,12 +98,15 @@
    </div>
  </div>
 
- <div class="col-md-1">
+ <div class="col-md-2 text-right">
   <a href="https://www.facebook.com/paideiaeducacionalpa/" target="_blank" class="icon-socials">
     <i class="fab fa-facebook-f"></i>
   </a>
   <a href="https://www.instagram.com/paideiaeducacional/" target="_blank" class="icon-socials">
     <i class="fab fa-instagram"></i>
+  </a> 
+  <a href="https://www.youtube.com/channel/UCENeiT9xC9E6REBOzli7a7A" target="_blank" class="icon-socials">
+    <i class="fab fa-youtube"></i>
   </a> 
 
 </div>
@@ -135,10 +138,12 @@
     </li>
     <li><a href="#eventos">Eventos</a></li>
 
-    <li><a href="#depoimentos">Parceiros</a></li>
+    <!-- <li><a href="#depoimentos">Parceiros</a></li> -->
+    <li><a href="#depoimentos">Depoimentos</a></li>
 
     <li><a href="#paralax">Fale Conosco</a></li>
-    <li><a class="btn btn-warning" href="#" data-toggle="modal" data-target="#modalExemplo">CONSULTE-NOS</a></li>
+    <!-- <li><a class="btn btn-success" href="#" data-toggle="modal" data-target="#modalExemplo">CONSULTE-NOS</a></li> -->
+    <li><a class="btn btn-success" href="#paralax">CONSULTE-NOS</a></li>
   </ul>
 
   <div class="burger">

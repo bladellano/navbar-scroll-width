@@ -10,13 +10,18 @@
         <i class="fas fa-phone"></i> (91) 9 8176 9979 | <i class="fab fa-whatsapp"></i><br/>
         Horário de Funcionamento: Comercial<br/>
       Responsável pela empresa: Rosangela Santos e William Borralho</p>
-      <p><i class="fas fa-envelope"></i> contato@paideiaeducacional.com</p>
-      <a href="" class="icon-socials">
+      <p><i class="fas fa-envelope"></i> contato@paideiaeducacional.com</p>      
+
+      <a href="https://www.facebook.com/paideiaeducacionalpa/" target="_blank" class="icon-socials">
         <i class="fab fa-facebook-f"></i>
       </a>
-      <a href="" class="icon-socials">
+      <a href="https://www.instagram.com/paideiaeducacional/" target="_blank" class="icon-socials">
         <i class="fab fa-instagram"></i>
       </a> 
+      <a href="https://www.youtube.com/channel/UCENeiT9xC9E6REBOzli7a7A" target="_blank" class="icon-socials">
+        <i class="fab fa-youtube"></i>
+      </a> 
+
     </div>
     <div class="col-md-3">
       <h3>Notícias</h3>
@@ -25,7 +30,6 @@
         <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
         <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
         <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
-
       </ul>
     </div>
     <div class="col-md-3">      
@@ -42,7 +46,8 @@
       <div class="col-md-3">  
 
 
-        <div class="fb-page" data-href="https://www.facebook.com/paideiaeducacionalpa/" data-tabs="timeline" data-width="" data-height="400px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/paideiaeducacionalpa/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/paideiaeducacionalpa/">Paideia Educacional</a></blockquote></div>
+        <div class="fb-page" data-href="https://www.facebook.com/paideiaeducacionalpa/" data-tabs="timeline" data-width="" data-height="460px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/paideiaeducacionalpa/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/paideiaeducacionalpa/">Paideia Educacional</a></blockquote>
+        </div>
 
 <!-- 
         <h3>Ligamos para você</h3>
@@ -95,8 +100,8 @@
 
     $('.slick-eventos').slick({ 
       speed: 300,
-      slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToShow: 3,
+      slidesToScroll:3,
       responsive: [
       {
         breakpoint: 1024,
