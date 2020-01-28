@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- GLOBAL SITE TAG (GTAG.JS) - GOOGLE ANALYTICS -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156612719-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -119,29 +119,25 @@
 
 <div class="head"> 
   <div class="nav-menu" id="nav">
-   <div class="logo-mobile"><img src="assets/img/logo_1.svg"></div>
+   <div class="logo-mobile"><img src="assets/img/logo_1.svg"></div>   
    <ul class="nav-links">
-    <li><a href="./">Home</a></li>
-    <li><a href="#sobre-nos">Sobre nós</a></li>
-
+    <li class="efeito-hr"><a href="./">Home<hr></a></li>
+    <li class="efeito-hr"><a href="#sobre-nos">Sobre nós<hr></a></li>
     <li>
       <i class="fa fa-chevron-left" aria-hidden="true"></i>
       <a href="#">Serviços</a>
       <i class="fa fa-chevron-down" aria-hidden="true"></i>
       <div class="sub-menu">
         <ul>
-          <li><a href="assessoria">Assessoria<hr></a></li>
-          <li><a href="consultoria">Consultoria<hr></a></li>
-          <li><a href="cursos-on-line">Cursos on-line<hr></a></li>
+          <li class="efeito-hr"><a href="assessoria">Assessoria<hr></a></li>
+          <li class="efeito-hr"><a href="consultoria">Consultoria<hr></a></li>
+          <li class="efeito-hr"><a href="cursos-on-line">Cursos on-line<hr></a></li>
         </ul> 
       </div>
     </li>
-    <li><a href="#eventos">Eventos</a></li>
-
-    <!-- <li><a href="#depoimentos">Parceiros</a></li> -->
-    <li><a href="#depoimentos">Depoimentos</a></li>
-
-    <li><a href="#paralax">Fale Conosco</a></li>
+    <li class="efeito-hr"><a href="#eventos">Eventos<hr></a></li>
+    <li class="efeito-hr"><a href="#depoimentos">Depoimentos<hr></a></li>
+    <li class="efeito-hr"><a href="#paralax">Fale Conosco<hr></a></li>
     <!-- <li><a class="btn btn-success" href="#" data-toggle="modal" data-target="#modalExemplo">CONSULTE-NOS</a></li> -->
     <li><a class="btn btn-success" href="#paralax">CONSULTE-NOS</a></li>
   </ul>
@@ -151,5 +147,5 @@
     <div class="line2"></div>
     <div class="line3"></div>
   </div>
-</div><!--nav-->
+</div><!--NAV-->
 </div>

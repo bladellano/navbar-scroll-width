@@ -1,13 +1,13 @@
 <?php include_once("_header.php"); ?>
 
-<!-- carousel -->
+<!-- CAROUSEL -->
 <div id="owl-demo" class="owl-carousel owl-theme">
 
   <div class="item"><img src="assets/img/paideia1.jpg" alt=""></div>
   <div class="item"><img src="assets/img/student1.jpg" alt=""></div>
 
 </div>
-<!-- End carousel -->
+<!-- END CAROUSEL -->
 
 <section>
 
@@ -182,7 +182,6 @@
                              <div class="col-md-6">
                               <h2>Convite Workshop - Conversando sobre a BNCC</h2>
                               <p><b>BNCC</b> é uma sigla para Base Nacional Comum Curricular. Ela nada mais é que um documento que define as aprendizagens que todos os alunos do Brasil devem desenvolver em cada etapa da Educação Básica.</p>
-                              <!-- <button class="btn btn-outline-primary">SOLICITAR ORÇAMENTO</button> -->
                               <button class="btn btn-warning">DÚVIDAS?</button>
                               <br/><br/>
                             </div>

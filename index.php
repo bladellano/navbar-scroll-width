@@ -14,12 +14,6 @@ $app->get(
   }
 );
 
-$app->get(
-  '/all-eventos',
-  function (){
-    require_once("view/all-eventos.php");   
-  }
-);
 
 $app->get('/assessoria',function (){require_once("view/assessoria.php");});
 $app->get('/consultoria',function (){require_once("view/consultoria.php");});
