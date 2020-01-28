@@ -137,9 +137,9 @@
     </li>
     <li class="efeito-hr"><a href="#eventos">Eventos<hr></a></li>
     <li class="efeito-hr"><a href="#depoimentos">Depoimentos<hr></a></li>
-    <li class="efeito-hr"><a href="#paralax">Fale Conosco<hr></a></li>
+    <li class="efeito-hr"><a href="#fale-conosco">Fale Conosco<hr></a></li>
     <!-- <li><a class="btn btn-success" href="#" data-toggle="modal" data-target="#modalExemplo">CONSULTE-NOS</a></li> -->
-    <li><a class="btn btn-success" href="#paralax">CONSULTE-NOS</a></li>
+    <li><a class="btn btn-success" href="#fale-conosco">CONSULTE-NOS</a></li>
   </ul>
 
   <div class="burger">

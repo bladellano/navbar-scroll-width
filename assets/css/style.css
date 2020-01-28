@@ -473,16 +473,16 @@ body {
     color:#FFF;
 }
 /*~~~~~~~~~~BLOCO~~~~~~~~~~*/
-#paralax h2 i{
+#fale-conosco h2 i{
     font-size: 26px;
 }
-#paralax hr{
+#fale-conosco hr{
     border: #FFF solid 2px;
     width: 200px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
-#paralax{
+#fale-conosco{
 
    background-image: url("../../assets/img/plateia-front.jpg");
    background-position: center top;
@@ -511,7 +511,7 @@ body {
     margin:0 auto;
 }
 /*~~~~~~~~~~BLOCO~~~~~~~~~~*/
-.bg-paralax-pg-default{
+.bg-fale-conosco-pg-default{
     background-image: url('../../assets/img/bg-pagina.jpg');
     background-position: center top;
     background-repeat: no-repeat;
@@ -523,16 +523,17 @@ body {
     position: relative;
 }
 
-.bg-paralax-pg-default h6{
+.bg-fale-conosco-pg-default h6{
     position: absolute;
     bottom: 0px;
 }
-.bg-paralax-pg-default .container h6 a{
+.bg-fale-conosco-pg-default .container h6 a{
     color:#FFF;
 }
-.bg-paralax-pg-default .container h6 a:hover{
+.bg-fale-conosco-pg-default .container h6 a:hover{
     color:var(--cor-color-principal);
 }
+
 h3.border-bottom.border-gray{
     margin-top: 24px;
 }

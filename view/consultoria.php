@@ -1,7 +1,7 @@
 <?php include_once("_header.php"); ?>
 
-<!-- Efeito paralax -->
-<div class="bg-paralax-pg-default">
+<!-- Efeito fale-conosco -->
+<div class="bg-fale-conosco-pg-default">
   <div class="container">
     <h6><a href="./">home</a> &raquo; <a href="consultoria">consultoria</a></h6>
   </div>

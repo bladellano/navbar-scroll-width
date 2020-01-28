@@ -120,7 +120,7 @@
             <span>JAN</span>
             <span>29<span>
             </div><span class="titulo">JORNADA PEDAGÓGICA<span>
-              <span class="resumo">Com a presença da nossa diretora... <a href="#paralax">Saiba mais</a> </span>
+              <span class="resumo">Com a presença da nossa diretora... <a href="#fale-conosco">Saiba mais</a> </span>
             </div>
           </div>
 
@@ -130,7 +130,7 @@
                 <span>JAN</span>
                 <span>18<span>
                 </div><span class="titulo">WORKSHOP<span>
-                  <span class="resumo">conversando sobre a BNCC... <a href="#paralax">Saiba mais</a> </span>
+                  <span class="resumo">conversando sobre a BNCC... <a href="#fale-conosco">Saiba mais</a> </span>
                 </div>
               </div>
               <div>
@@ -139,7 +139,7 @@
                     <span>JAN</span>
                     <span>20<span>
                     </div><span class="titulo">XVIII SEMANA PEDAGÓGICA<span>
-                      <span class="resumo">Com a presença da nossa diretora... <a href="#paralax">Saiba mais</a> </span>
+                      <span class="resumo">Com a presença da nossa diretora... <a href="#fale-conosco">Saiba mais</a> </span>
                     </div>
                   </div>
 
@@ -166,7 +166,7 @@
             </div>
           </div>
 
-          <div id="paralax">
+          <div id="fale-conosco">
             <div class="container">
               <div class="row">
                 <div class="col-12">

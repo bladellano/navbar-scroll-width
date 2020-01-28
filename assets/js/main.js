@@ -5,14 +5,7 @@
         /* Mascara para o campo telefone */
         $('input[name="telefone"]').mask('(00) 00000-0000');
 
-        /* Formulário de Contato */
-/*        $('input[name="nome"]').val('Camilo Pesanha Silva');
-        $('input[name="email"]').val('camilopesanha1988@gmail.com');
-        $('input[name="telefone"]').val('(91)98265-0277');
-        $('textarea[name="mensagem"]').val(`LoremIpsum360 ° é um gerador on-line falso texto livre. Ele oferece um simulador de texto completo para gerar texto de substituição ou texto alternativo para seus modelos. Possui textos aleatórios diferentes em latim e cirílico para gerar exemplos de textos em diferentes línguas.
-
-        LoremIpsum360 ° também lhe dá a capacidade de adicionar marcas de pontuação, acentos e caracteres especiais, para estar mais perto dos idiomas francês ou outras. Além disso, se você quiser ver os resultados em diferentes tipos de letra, você vai encontrar muitos recursos para definir como font-family, font-size, text-align ou line-heigh.`);*/
-
+        /* Validação de Formulário */
         $('.form-contato').submit(function(e) {
             e.preventDefault();
 
@@ -39,7 +32,6 @@
             $('button[type="submit"]').text('ENVIANDO...');
 
             $.post("send-mail.php",data, function(data, status){
-                // console.log("data", data);
                 if(status == "success"){
                     $('.form-contato :input').attr('disabled',false);
                     $('button[type="submit"]').text('ENVIAR');
@@ -71,9 +63,9 @@
             let click = new Event("click");
             let fora = !burger.contains(e.target);
             if(fora && nav.classList.contains('nav-active'))
-               burger.dispatchEvent(click);                
+             burger.dispatchEvent(click);                
 
-       });
+     });
 
         const navSlide = () => {                    
 
@@ -97,18 +89,25 @@
         }
         navSlide();
 
-        //Scroll suave links internos.
-        $('.nav-links li a[href^="#"]').on('click', function(e) {
+        /*Scroll suave entre links internos.*/
+        $('.nav-links li a[href^="#"]').click(function(e){
             e.preventDefault();
-            var id = $(this).attr('href'),
-            targetOffset = $(id).offset().top;  
-            console.log(targetOffset);          
+            let id = $(this).attr('href');
+            let url = window.location.href.split('/');
+            url.pop();
+
+            if(typeof $(id).offset()  == 'undefined'){
+                let urlAtual = url.join('/')+"/"+id;
+                return location.replace(urlAtual);
+            }
+
+            let targetOffset = $(id).offset().top; 
             $('html, body').animate({ 
                 scrollTop: targetOffset - 100
             }, 1000);
         });
 
-        //Botão topo do site.
+        /*Botão que surge no rodapé p/ ir até o topo.*/
         $(window).scroll(function(e) {
             if($(this).scrollTop() > 0){
                 $('.topo').fadeIn();
@@ -117,13 +116,13 @@
             }
         });
 
+        /*Botão topo do site.*/
         $('.topo').click(function(e){
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: 0
             }, 500)
         });
-
 
 
         window.sr = ScrollReveal({reset: true});
