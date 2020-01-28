@@ -70,7 +70,7 @@
 
   <div class="container-fluid">
     <div class="row linha-top">
-      <div class="col-md-12 text-right"><a href="http://webmail.umbler.com/" target="_blank">Webmail</a></div>
+      <div class="col-md-12 text-right"><a class="d-none d-sm-block" href="http://webmail.umbler.com/" target="_blank">Webmail</a></div>
     </div>
     <div class="row title">
       <div class="col-md-3 text-left">

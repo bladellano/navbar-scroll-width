@@ -50,23 +50,32 @@
 
         });
 
-
-        const nav = doc.querySelector('#nav');
-
+        /* FIXA O NAVBAR */
+        const navbar = doc.querySelector('#nav');
         win.onscroll = () => {
             if (win.pageYOffset > 100) {
-                nav.style.position = 'fixed';
-                nav.style.top = 0;
+                navbar.style.position = 'fixed';
+                navbar.style.top = 0;
                 // nav.style.opacity = '0.9';
             } else {
-                nav.style.position = 'relative';
+                navbar.style.position = 'relative';
             }
         }
 
-        const navSlide = () => {
-            const burger = doc.querySelector('.burger');
-            const nav = doc.querySelector('.nav-links');
-            const navLinks = doc.querySelectorAll('.nav-links li');
+        /* MENU MOBILE */
+        const burger = doc.querySelector('.burger');
+        const nav = doc.querySelector('.nav-links');
+        const navLinks = doc.querySelectorAll('.nav-links li');
+
+        doc.addEventListener("click", function(e) {
+            let click = new Event("click");
+            let fora = !burger.contains(e.target);
+            if(fora && nav.classList.contains('nav-active'))
+               burger.dispatchEvent(click);                
+
+       });
+
+        const navSlide = () => {                    
 
             burger.addEventListener('click', () => {
                 //Toggle Nav
