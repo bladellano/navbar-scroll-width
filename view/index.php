@@ -120,7 +120,7 @@
         <div class="box-data-evento">
           <span>JAN</span>
           <span>30<span>
-          </div><span class="titulo">JORNADA PEDAGÓGICA<span>
+          </div><span class="titulo">FLEXIBILIZAÇÃO CURRICULAR E AS...<span>
             <span class="resumo">Com a presença da nossa diretora... <a href="#fale-conosco">Saiba mais</a> </span>
           </div>
         </div>
