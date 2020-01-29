@@ -114,102 +114,113 @@
   <div class="container">       
 
     <div class="slick-eventos">
-      <div>
-        <div class="box-evento" style="background:url('assets/img/jornada-pedagogica-nas-escolas.jpg')">
-          <div class="box-data-evento">
-            <span>JAN</span>
-            <span>29<span>
-            </div><span class="titulo">JORNADA PEDAGÓGICA<span>
-              <span class="resumo">Com a presença da nossa diretora... <a href="#fale-conosco">Saiba mais</a> </span>
-            </div>
+
+     <div>
+      <div class="box-evento" style="background:url('assets/img/flexibilizacao-curricular.jpg')">
+        <div class="box-data-evento">
+          <span>JAN</span>
+          <span>29<span>
+          </div><span class="titulo">JORNADA PEDAGÓGICA<span>
+            <span class="resumo">Com a presença da nossa diretora... <a href="#fale-conosco">Saiba mais</a> </span>
           </div>
+        </div>
 
-          <div>
-            <div class="box-evento" style="background:url('assets/img/workshop-conversando-sobre-a-bncc.jpeg')">
-              <div class="box-data-evento">
-                <span>JAN</span>
-                <span>18<span>
-                </div><span class="titulo">WORKSHOP<span>
-                  <span class="resumo">conversando sobre a BNCC... <a href="#fale-conosco">Saiba mais</a> </span>
-                </div>
-              </div>
-              <div>
-                <div class="box-evento" style="background:url('assets/img/xvii-semana-da-pedagogica.jpg')">
-                  <div class="box-data-evento">
-                    <span>JAN</span>
-                    <span>20<span>
-                    </div><span class="titulo">XVIII SEMANA PEDAGÓGICA<span>
-                      <span class="resumo">Com a presença da nossa diretora... <a href="#fale-conosco">Saiba mais</a> </span>
-                    </div>
-                  </div>
-
-                </div><!--slick eventos-->
-
+        <div>
+          <div class="box-evento" style="background:url('assets/img/jornada-pedagogica-nas-escolas.jpg')">
+            <div class="box-data-evento">
+              <span>JAN</span>
+              <span>29<span>
+              </div><span class="titulo">JORNADA PEDAGÓGICA<span>
+                <span class="resumo">Com a presença da nossa diretora... <a href="#fale-conosco">Saiba mais</a> </span>
               </div>
             </div>
 
-            <div id="services">
-              <div class="container">        
-               <div class="row">
-                 <div class="col-md-6">
-                  <h2>Convite Workshop - Conversando sobre a BNCC</h2>
-                  <p><b>BNCC</b> é uma sigla para Base Nacional Comum Curricular. Ela nada mais é que um documento que define as aprendizagens que todos os alunos do Brasil devem desenvolver em cada etapa da Educação Básica.</p>
-                  <button class="btn btn-warning">DÚVIDAS?</button>
-                  <br/><br/>
-                </div>
-                <div class="col-md-6">
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8Ac-RvmDWvs"></iframe>
+            <div>
+              <div class="box-evento" style="background:url('assets/img/workshop-conversando-sobre-a-bncc.jpeg')">
+                <div class="box-data-evento">
+                  <span>JAN</span>
+                  <span>18<span>
+                  </div><span class="titulo">WORKSHOP<span>
+                    <span class="resumo">conversando sobre a BNCC... <a href="#fale-conosco">Saiba mais</a> </span>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div id="fale-conosco">
-            <div class="container">
-              <div class="row">
-                <div class="col-12">
-                  <h2 class="text-center"> <i class="fas fa-file-signature"></i> FALE CONOSCO</h2>
-                  <hr>
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="wrap-form text-center">
-                        <form action="" class="form-contato">
-
-                          <input type="text" name="nome" placeholder="NOME">
-                          <input type="email" name="email" placeholder="E-MAIL">
-                          <input type="text" name="telefone" placeholder="TELEFONE">
-                          <textarea name="mensagem" id="mensagem" cols="30" rows="4" placeholder="MENSAGEM"></textarea>
-                          <button type="submit" class="btn btn-success ">ENVIAR</button>
-                        </form>
-
-
+                <div>
+                  <div class="box-evento" style="background:url('assets/img/xvii-semana-da-pedagogica.jpg')">
+                    <div class="box-data-evento">
+                      <span>JAN</span>
+                      <span>20<span>
+                      </div><span class="titulo">XVIII SEMANA PEDAGÓGICA<span>
+                        <span class="resumo">Com a presença da nossa diretora... <a href="#fale-conosco">Saiba mais</a> </span>
                       </div>
                     </div>
-                  </div>
+
+                  </div><!--slick eventos-->
 
                 </div>
               </div>
-            </div>
-          </div>
-          <div id="depoimentos">
-            <div class="container">    
-              <h2>DEPOIMENTOS</h2>
-              <hr>
-              <div class="slick-depoimentos">
-                <div>
-                  <img src="assets/img/sem-foto.jpg" alt="">
-                  <p>Amélia Borralho</p>
-                  "Contra fatos não há argumentos. A competência deste grupo se revela a cada dia. Parabéns @paideiaeducacional."
-                </div>
-                <div>      
-                  <img src="assets/img/nayara.jpg" alt="">
-                  <p>Naiara Afonso</p>
-                  "Parabéns a Paidéia por palestras maravilhosas e esclarecedoras. Amei! Quando será a próxima?"
-                </div>                   
-              </div>  
-            </div>
-          </div>
 
-          <?php include_once("_footer.php"); ?>
+              <div id="services">
+                <div class="container">        
+                 <div class="row">
+                   <div class="col-md-6">
+                    <h2>Convite Workshop - Conversando sobre a BNCC</h2>
+                    <p><b>BNCC</b> é uma sigla para Base Nacional Comum Curricular. Ela nada mais é que um documento que define as aprendizagens que todos os alunos do Brasil devem desenvolver em cada etapa da Educação Básica.</p>
+                    <button class="btn btn-warning">DÚVIDAS?</button>
+                    <br/><br/>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8Ac-RvmDWvs"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="fale-conosco">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <h2 class="text-center"> <i class="fas fa-file-signature"></i> FALE CONOSCO</h2>
+                    <hr>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="wrap-form text-center">
+                          <form action="" class="form-contato">
+
+                            <input type="text" name="nome" placeholder="NOME">
+                            <input type="email" name="email" placeholder="E-MAIL">
+                            <input type="text" name="telefone" placeholder="TELEFONE">
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="4" placeholder="MENSAGEM"></textarea>
+                            <button type="submit" class="btn btn-success ">ENVIAR</button>
+                          </form>
+
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="depoimentos">
+              <div class="container">    
+                <h2>DEPOIMENTOS</h2>
+                <hr>
+                <div class="slick-depoimentos">
+                  <div>
+                    <img src="assets/img/amelia.jpg" alt="">
+                    <p>Amélia Borralho</p>
+                    "Contra fatos não há argumentos. A competência deste grupo se revela a cada dia. Parabéns @paideiaeducacional."
+                  </div>
+                  <div>      
+                    <img src="assets/img/nayara.jpg" alt="">
+                    <p>Naiara Afonso</p>
+                    "Parabéns a Paidéia por palestras maravilhosas e esclarecedoras. Amei! Quando será a próxima?"
+                  </div>                   
+                </div>  
+              </div>
+            </div>
+
+            <?php include_once("_footer.php"); ?>
