@@ -165,8 +165,8 @@
                    <div class="col-md-6">
                     <h2>Convite Workshop - Conversando sobre a BNCC</h2>
                     <p><b>BNCC</b> é uma sigla para Base Nacional Comum Curricular. Ela nada mais é que um documento que define as aprendizagens que todos os alunos do Brasil devem desenvolver em cada etapa da Educação Básica.</p>
-                    <button class="btn btn-warning">DÚVIDAS?</button>
-                    <br/><br/>
+                    <!-- <button class="btn btn-warning">DÚVIDAS?</button> -->
+                    <!-- <br/><br/> -->
                   </div>
                   <div class="col-md-6">
                     <div class="embed-responsive embed-responsive-16by9">

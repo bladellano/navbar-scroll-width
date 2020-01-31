@@ -122,7 +122,7 @@ Desenvolvimento FireFly
     right: auto;
 }
 .slick-next:before {
- content: "›"; 
+   content: "›"; 
 }
 [dir="rtl"] .slick-next:before { content: "‹"; }
 /* Fim */
@@ -259,7 +259,7 @@ body {
     text-align: right;
 }
 #services .container .row .col-md-6 .btn.btn-warning{
- color:#FFF;
+   color:#FFF;
 }
 /*~~~~~~~~~~BLOCO~~~~~~~~~~*/
 #enquete .nav-link.active{
@@ -268,6 +268,7 @@ body {
 #enquete h3{
     background:var(--cor-color-principal);
     color:#FFF;
+    margin-top: 20px;
 }
 #enquete{
 
@@ -366,9 +367,9 @@ body {
     padding-bottom: 20px;
 }
 #footer .container-fluid .row .col-md-3{
- padding-left:4% ;
- padding-right:4% ;
- border-left:1px dotted #666;
+   padding-left:4% ;
+   padding-right:4% ;
+   border-left:1px dotted #666;
 }
 #footer .container-fluid .row:only-child h3{
     margin-bottom: 35px;
@@ -389,8 +390,8 @@ body {
   transition: .3s;
 }  
 .noticias li:hover a{
-   color: #000; 
-   border-left: 4px solid #000;
+ color: #000; 
+ border-left: 4px solid #000;
 }
 #footer .container-fluid .row:only-child ul li:hover a{
     color: #FFF;
@@ -410,15 +411,15 @@ body {
 
 /*~~~~~~~~~~BLOCO~~~~~~~~~~*/
 #assign {
-   background: linear-gradient(45deg, #222, #333); 
+ background: linear-gradient(45deg, #222, #333); 
 }
 #assign .container{
-   text-align: center; 
-   color: #FFF;
-   padding-top: 8px;
-   padding-bottom: 8px;
-   font-size: 12px;
-   color: #777;
+ text-align: center; 
+ color: #FFF;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ font-size: 12px;
+ color: #777;
 }
 #assign .container img{
     max-height: 33px;
@@ -484,14 +485,14 @@ body {
 }
 #fale-conosco{
 
-   background-image: url("../../assets/img/plateia-front.jpg");
-   background-position: center top;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-attachment: fixed;
-   color: #FFF;
-   padding-top: 20px;
-   padding-bottom: 20px;
+ background-image: url("../../assets/img/plateia-front.jpg");
+ background-position: center top;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ color: #FFF;
+ padding-top: 20px;
+ padding-bottom: 20px;
 }
 .form-contato input{
     width: 100%;
@@ -636,9 +637,9 @@ h3.border-bottom.border-gray{
   opacity: 0;
 }
 .efeito-hr:hover hr{
- width : 100%;
- opacity: 1;
- border: 1px solid #FFF;
+   width : 100%;
+   opacity: 1;
+   border: 1px solid #FFF;
 }
 
 /*.nav-links li a hr{
@@ -737,29 +738,24 @@ h3.border-bottom.border-gray{
         body {
             overflow-x: hidden;
         }
+        #sobre-nos p,#sobre-nos h3, 
+        #services p, #services h2
+        {
+            text-align: center;
+        }
         .topo {
             background-color: transparent;
             border: 1px solid var(--cor-color-secundaria);
             color:var(--cor-color-secundaria);
             left: 10px;
             bottom: 18px;
-            /* width: 30px;
-            height: 30px;
-            color: #FFF;
-            text-align: center; 
-            position: fixed;
-            
-            padding-top: 2px;
-            cursor: pointer;
-            z-index: 4;
-            border-radius: 4px; */
         }
         .head .nav-menu{
             background-color: var(--cor-color-principal);
         }
         #links-services .container .row:only-child a{
-            width : 198px;
-            height: 178px;
+            width: 142px;
+            height: 132px;
         }
         #services{
             text-align: center;  

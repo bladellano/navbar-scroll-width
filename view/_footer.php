@@ -23,7 +23,7 @@
       </a> 
 
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 d-none d-sm-block">
       <h3>Notícias</h3>
       <ul>
         <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
@@ -32,7 +32,7 @@
         <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
       </ul>
     </div>
-    <div class="col-md-3">      
+    <div class="col-md-3 d-none d-sm-block">      
       <h3>Institucional</h3>
       <ul>
         <li><a href="#">Inicial</a></li>
@@ -43,7 +43,7 @@
         <li><a href="#">Orçamento</a></li>
         <li><a href="#">Fale Conosco</a></li>
       </ul></div>
-      <div class="col-md-3">  
+      <div class="col-md-3 d-none d-sm-block">  
 
 
         <div class="fb-page" data-href="https://www.facebook.com/paideiaeducacionalpa/" data-tabs="timeline" data-width="" data-height="460px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/paideiaeducacionalpa/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/paideiaeducacionalpa/">Paideia Educacional</a></blockquote>
@@ -104,21 +104,13 @@
       slidesToScroll:3,
       responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 800,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
         }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-         centerMode: true,
-         slidesToShow: 1,
-         slidesToScroll: 1
-       }        
-     } 
+      }
      ]
    });  
 
