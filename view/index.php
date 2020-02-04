@@ -121,7 +121,8 @@
             <span>ABR</span>
             <span>02<span>
             </div><span class="titulo">VENDAS PODEROSAS...<span>
-              <span class="resumo">Korato Tuji - O samurai das vendas<a href="#fale-conosco">Saiba mais</a> </span>
+              <!-- <span class="resumo">Korato Tuji - O samurai das vendas<a href="#" data-toggle="modal" data-target="#modalInscricao">Inscreva-se</a> </span> -->
+                 <span class="resumo">Korato Tuji - O samurai das vendas...<a href="#fale-conosco">Saiba mais</a> </span>
             </div>
           </div>
 

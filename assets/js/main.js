@@ -1,53 +1,97 @@
-    (function(doc, win) {
+       
 
-        'use strict';
 
-        /* Mascara para o campo telefone */
-        $('input[name="telefone"]').mask('(00) 00000-0000');
 
-        /* Validação de Formulário */
-        $('.form-contato').submit(function(e) {
-            e.preventDefault();
+(function(doc, win) {
 
-            const data = $(this).serializeArray();
+    'use strict';
 
-            const pattEmail = /^[a-z0-9.|_]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$/g;
-            const pattName = /\D\w/g;
+    $('#nome_inscrito').val('Caio Dellano');
+    $('#email').val('bladellano@gmail.com');
+    $('#cpf').val('83202919253');
+    $('#telefone').val('(91) 9 9999-9999');
 
-            const email    = $('input[name="email"]').val();
-            const name     = $('input[name="nome"]').val();
-            const telefone = $('input[name="telefone"]').val();
-            const mensagem = $('textarea[name="mensagem"]').val();
+    /* MASCARA PARA O CAMPO TELEFONE */
+    $('input[name="telefone"],#input-telefone').mask('(00) 00000-0000');
 
-            if(!pattName.test(name))
-                return alertify.error('Preencha o corretamente o campo nome.');
-            if(!pattEmail.test(email))
-                return alertify.error('Preencha o corretamente o campo e-mail.');
-            if(telefone.length ==0)
-                return alertify.error('Preencha corretamente o campo telefone');
-            if(mensagem.length ==0)
-                return alertify.error('Preencha o campo mensagem.');
+    /* VALIDAÇÃO/INSERÇÃO DE DADOS DO FORMULÁRIO DE INSCRIÇÃO */
 
-            $('.form-contato :input').attr('disabled','disabled');
-            $('button[type="submit"]').text('ENVIANDO...');
+    $('#form-inscricao').submit(function(e) {
+        e.preventDefault();
+        let data = $(this).serializeArray();
 
-            $.post("send-mail.php",data, function(data, status){
-                if(status == "success"){
-                    $('.form-contato :input').attr('disabled',false);
-                    $('button[type="submit"]').text('ENVIAR');
-                    alertify.success('E-mail enviado com sucesso!');
-                }
-            });
-            return $(this)[0].reset();
-
+        //INSERINDO DADOS NA TABELA
+        $.post('inserindo-inscricao', data, function(res, textStatus, xhr) {
+            let objData = JSON.parse(res);
+            if(objData.success)
+                return alertify.success(objData.msg);    
+            return alert(objData.msg);   
         });
 
-        /* FIXA O NAVBAR */
-        const navbar = doc.querySelector('#nav');
-        win.onscroll = () => {
-            if (win.pageYOffset > 100) {
-                navbar.style.position = 'fixed';
-                navbar.style.top = 0;
+        //ENVIANDO E-MAIL COM DADOS DA INSCRIÇÃO
+        $('#form-inscricao :input').attr('disabled',true);
+        $('button[name="btn-inscricao"]').text('Processando...');
+
+        $.post("send-mail-inscricao.php",data, function(res, status){
+
+            let objData = JSON.parse(res);
+
+            if(objData.success){
+                alertify.success('E-mail enviado com sucesso da inscrição!');
+            } else {
+                alertify.error('Problemas ao enviar e-mail para o inscrito.');
+            }
+
+            $('button[name="btn-inscricao"]').text('Salvar');               
+            $('#form-inscricao :input').attr('disabled',false);
+        });
+
+        $(this)[0].reset();
+    });
+
+    /* VALIDAÇÃO DE FORMULÁRIO DE CONTATO */
+    $('.form-contato').submit(function(e) {
+        e.preventDefault();
+
+        const data = $(this).serializeArray();
+
+        const pattEmail = /^[a-z0-9.|_]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$/g;
+        const pattName = /\D\w/g;
+
+        const email    = $('input[name="email"]').val();
+        const name     = $('input[name="nome"]').val();
+        const telefone = $('input[name="telefone"]').val();
+        const mensagem = $('textarea[name="mensagem"]').val();
+
+        if(!pattName.test(name))
+            return alertify.error('Preencha o corretamente o campo nome.');
+        if(!pattEmail.test(email))
+            return alertify.error('Preencha o corretamente o campo e-mail.');
+        if(telefone.length ==0)
+            return alertify.error('Preencha corretamente o campo telefone');
+        if(mensagem.length ==0)
+            return alertify.error('Preencha o campo mensagem.');
+
+        $('.form-contato :input').attr('disabled','disabled');
+        $('button[type="submit"]').text('ENVIANDO...');
+
+        $.post("send-mail.php",data, function(data, status){
+            if(status == "success"){
+                $('.form-contato :input').attr('disabled',false);
+                $('button[type="submit"]').text('ENVIAR');
+                alertify.success('E-mail enviado com sucesso!');
+            }
+        });
+        return $(this)[0].reset();
+
+    });
+
+    /* FIXA O NAVBAR */
+    const navbar = doc.querySelector('#nav');
+    win.onscroll = () => {
+        if (win.pageYOffset > 100) {
+            navbar.style.position = 'fixed';
+            navbar.style.top = 0;
                 // nav.style.opacity = '0.9';
             } else {
                 navbar.style.position = 'relative';

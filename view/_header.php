@@ -47,36 +47,71 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0"></script>
 
 <body>
-  <!-- Modal -->
-  <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+
+
+
+  <!-- MODAL -->
+  <div class="modal fade" id="modalInscricao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Formulário de Inscrição</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-          ...
+        <form id="form-inscricao">
+          <div class="modal-body">
+
+           <div class="form-group">
+            <label for="nome_inscrito">Nome Completo</label>
+            <input type="text" class="form-control" id="nome_inscrito" name="nome_inscrito" placeholder="Digite seu nome completo" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu e-mail" required>
+          </div>
+
+          <div class="form-group">
+            <label for="cpf">CPF</label>
+            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Digite seu cpf" required>
+          </div>
+
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="text" class="form-control" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+          </div>
+          
+          <label for="nome_evento">Evento</label>
+          <select class="form-control" name="nome_evento" id="nome_evento">
+            <option value="VENDAS_PODEROSAS_02_04_2020">VENDAS PODEROSAS 02/04/2020 - KOTARO TUJI</option>
+          </select>
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-          <button type="button" class="btn btn-primary">Salvar mudanças</button>
+          <button type="submit" class="btn btn-primary" name="btn-inscricao">Salvar</button>
+          <!-- <button type="button" class="btn btn-primary" onclick="postdata()"> Salvar</button> -->
         </div>
-      </div>
+      </form>
     </div>
   </div>
+</div>
+<!-- FIM MODAL -->
 
-  <div class="container-fluid">
-    <div class="row linha-top">
-      <div class="col-md-12 text-right"><a class="d-none d-sm-block" href="http://webmail.umbler.com/" target="_blank">Webmail</a></div>
-    </div>
-    <div class="row title">
-      <div class="col-md-3 text-left">
-       <a href="./"><img src="assets/img/logo_2.svg" alt=""></a>
-     </div>  
-     <div class="col-md-1">
+
+
+<div class="container-fluid">
+  <div class="row linha-top">
+    <div class="col-md-12 text-right"><a class="d-none d-sm-block" href="http://webmail.umbler.com/" target="_blank">Webmail</a></div>
+  </div>
+  <div class="row title">
+    <div class="col-md-3 text-left">
+     <a href="./"><img src="assets/img/logo_2.svg" alt=""></a>
+   </div>  
+   <div class="col-md-1">
  <!--       <div class="custom">
         <i class="fas fa-map-marker-alt"></i>
         <h3>ENDEREÇO</h3>

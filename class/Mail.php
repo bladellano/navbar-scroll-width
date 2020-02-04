@@ -20,9 +20,9 @@ class Mail{
 	public function send($para, $de, $de_nome, $assunto, $corpo) {
 		
 		$mail = new PHPMailer();
-		// $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;    
+		//$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;    
 		$mail->SMTPSecure = 'ssl';    
-		// $mail->SMTPDebug = SMTP::DEBUG_SERVER;   
+		//$mail->SMTPDebug = SMTP::DEBUG_SERVER;   
 		$mail->IsSMTP();		// Ativar SMTP
 		$mail->CharSet = 'UTF-8';		 
 		$mail->isHTML(true); 
