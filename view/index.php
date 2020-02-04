@@ -118,7 +118,7 @@
       <div>
         <div class="box-evento" style="background:url('assets/img/vendas-poderosas-kotaro-tuji-santarem.jpg')">
           <div class="box-data-evento">
-            <span>FEV</span>
+            <span>ABR</span>
             <span>02<span>
             </div><span class="titulo">VENDAS PODEROSAS...<span>
               <span class="resumo">Korato Tuji - O samurai das vendas<a href="#fale-conosco">Saiba mais</a> </span>
