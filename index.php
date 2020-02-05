@@ -34,14 +34,18 @@ $app->post(
 			VALUES (".implode(',',array_values($dados)).")");
 		$n_inscricao = $sql->get_last_id();
 		if($data){
-			echo json_encode(['success'=>true,'msg'=>'Inscrição realizada com sucesso! Seu número de inscrição é 000'.$n_inscricao]);
+			echo json_encode([
+				'success'=>true,
+				'msg'=>'Inscrição realizada com sucesso! Seu número de inscrição é 000'.$n_inscricao,
+				'n_inscricao'=> $n_inscricao
+				]);
 		} else {
 			echo json_encode(['success'=>false,'msg'=>'Falha na inscrição.']);
 		}
 	}
 );
 
-/*
+
 $app->get(
 	'/teste',
 	function (){
@@ -49,6 +53,6 @@ $app->get(
 		$data = $sql->select("SELECT * FROM tb_inscritos");
 		echo json_encode($data);
 	}
-);*/
+);
 
 $app->run();

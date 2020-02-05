@@ -7,7 +7,7 @@
     'use strict';
 
     $('#nome_inscrito').val('Caio Dellano');
-    $('#email').val('bladellano@gmail.com');
+    $('#email').val('bladellano@yahoo.com.br');
     $('#cpf').val('83202919253');
     $('#telefone').val('(91) 9 9999-9999');
 
@@ -18,28 +18,36 @@
 
     $('#form-inscricao').submit(function(e) {
         e.preventDefault();
-        let data = $(this).serializeArray();
+        const data = $(this).serializeArray();
 
+        $('#form-inscricao :input').attr('disabled',true);
+        $('button[name="btn-inscricao"]').text('Processando...'); 
         //INSERINDO DADOS NA TABELA
-        $.post('inserindo-inscricao', data, function(res, textStatus, xhr) {
-            let objData = JSON.parse(res);
-            if(objData.success)
-                return alertify.success(objData.msg);    
-            return alert(objData.msg);   
+        $.ajaxSetup({async: false});  
+        $.post('inserindo-inscricao', data, function(r) {
+            let resp = JSON.parse(r);
+            if(resp.success){
+                data.push({
+                    name:'n_inscricao', 
+                    value:String(resp.n_inscricao)
+                });         
+                // return alertify.success(resp.msg); 
+                return alertify.alert('PARABÉNS!',resp.msg + ', por favor anote.', function(){
+                    alertify.message('OK');
+                    $('button span[aria-hidden=true]').trigger('click');
+                }); 
+            }
+            return alert(resp.msg);   
         });
 
-        //ENVIANDO E-MAIL COM DADOS DA INSCRIÇÃO
-        $('#form-inscricao :input').attr('disabled',true);
-        $('button[name="btn-inscricao"]').text('Processando...');
+        //ENVIANDO E-MAIL COM DADOS DA INSCRIÇÃO      
 
-        $.post("send-mail-inscricao.php",data, function(res, status){
-
-            let objData = JSON.parse(res);
-
-            if(objData.success){
-                alertify.success('E-mail enviado com sucesso da inscrição!');
+        $.post("send-mail-inscricao.php",data, function(r){
+            let resp = JSON.parse(r);
+            if(resp.success){
+                alertify.success(resp.msg);
             } else {
-                alertify.error('Problemas ao enviar e-mail para o inscrito.');
+                alertify.error(resp.msg);
             }
 
             $('button[name="btn-inscricao"]').text('Salvar');               
@@ -107,9 +115,9 @@
             let click = new Event("click");
             let fora = !burger.contains(e.target);
             if(fora && nav.classList.contains('nav-active'))
-             burger.dispatchEvent(click);                
+               burger.dispatchEvent(click);                
 
-     });
+       });
 
         const navSlide = () => {                    
 

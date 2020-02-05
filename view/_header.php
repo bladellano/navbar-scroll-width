@@ -76,7 +76,7 @@
 
           <div class="form-group">
             <label for="cpf">CPF</label>
-            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Digite seu cpf" required>
+            <input type="text" class="form-control" id="cpf" maxlength="11" name="cpf" placeholder="Digite seu cpf" required>
           </div>
 
           <div class="form-group">
