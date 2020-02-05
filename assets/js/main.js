@@ -1,15 +1,12 @@
        
-
-
-
 (function(doc, win) {
 
     'use strict';
 
-    $('#nome_inscrito').val('Caio Dellano');
+/*    $('#nome_inscrito').val('Caio Dellano');
     $('#email').val('bladellano@yahoo.com.br');
     $('#cpf').val('83202919253');
-    $('#telefone').val('(91) 9 9999-9999');
+    $('#telefone').val('(91) 9 9999-9999');*/
 
     /* MASCARA PARA O CAMPO TELEFONE */
     $('input[name="telefone"],#input-telefone').mask('(00) 00000-0000');
@@ -37,7 +34,7 @@
                     $('button span[aria-hidden=true]').trigger('click');
                 }); 
             }
-            return alert(resp.msg);   
+            return alertify.error(resp.msg);   
         });
 
         //ENVIANDO E-MAIL COM DADOS DA INSCRIÇÃO      
@@ -54,7 +51,7 @@
             $('#form-inscricao :input').attr('disabled',false);
         });
 
-        $(this)[0].reset();
+        $(this)[0].reset();/*LIMPA CAMPOS DO FORMULÁRIO*/
     });
 
     /* VALIDAÇÃO DE FORMULÁRIO DE CONTATO */
@@ -115,9 +112,9 @@
             let click = new Event("click");
             let fora = !burger.contains(e.target);
             if(fora && nav.classList.contains('nav-active'))
-               burger.dispatchEvent(click);                
+             burger.dispatchEvent(click);                
 
-       });
+     });
 
         const navSlide = () => {                    
 
