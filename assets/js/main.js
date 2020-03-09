@@ -3,10 +3,10 @@
 
     'use strict';
 
-/*    $('#nome_inscrito').val('Caio Dellano');
+    $('#nome_inscrito').val('Caio Dellano');
     $('#email').val('bladellano@yahoo.com.br');
     $('#cpf').val('83202919253');
-    $('#telefone').val('(91) 9 9999-9999');*/
+    $('#telefone').val('(91) 9 9999-9999'); 
 
     /* MASCARA PARA O CAMPO TELEFONE */
     $('input[name="telefone"],#input-telefone').mask('(00) 00000-0000');
@@ -31,14 +31,13 @@
                 // return alertify.success(resp.msg); 
                 return alertify.alert('PARABÉNS!',resp.msg + ', por favor anote.', function(){
                     alertify.message('OK');
-                    $('button span[aria-hidden=true]').trigger('click');
+                    $('button span[aria-hidden=true]').trigger('click');/*FECHA MODAL*/
                 }); 
             }
             return alertify.error(resp.msg);   
         });
 
-        //ENVIANDO E-MAIL COM DADOS DA INSCRIÇÃO      
-
+        //ENVIANDO E-MAIL COM DADOS DA INSCRIÇÃO
         $.post("send-mail-inscricao.php",data, function(r){
             let resp = JSON.parse(r);
             if(resp.success){
@@ -165,7 +164,7 @@
             }
         });
 
-        /*Botão topo do site.*/
+        /*BOTÃO TOPO DO SITE.*/
         $('.topo').click(function(e){
             e.preventDefault();
             $('html, body').animate({

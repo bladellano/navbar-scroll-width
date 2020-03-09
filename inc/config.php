@@ -5,9 +5,10 @@ class Sql {
 	public $conn;
 
 	public function __construct(){
+		// echo '<pre>'; print_r($_SERVER); echo '</pre>';
 		// return $this->conn = mysqli_connect("localhost","root","","bd_paideia");
-		// return $this->conn = mysqli_connect("localhost","admin","","bd_paideia");
-		return $this->conn = mysqli_connect("mysql380.umbler.com","root_paideia","-2gmDX3k.K","bd_paideia");
+		return $this->conn = mysqli_connect("localhost","root","","bd_paideia");
+		// return $this->conn = mysqli_connect("mysql380.umbler.com","root_paideia","-2gmDX3k.K","bd_paideia");
 	}
 
 	public function query($string_query){
